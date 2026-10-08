@@ -1,0 +1,7 @@
+# Plotting imports in the preserved original scripts.
+# Configure a historically compatible Torch/PennyLane environment as described
+# in original_code/README.md before executing original training scripts.
+matplotlib==3.10.3
+seaborn==0.13.2
+pandas==2.2.3
+plotly==6.0.1

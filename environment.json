@@ -1,0 +1,15 @@
+{
+  "checked_for_release": "2026-10-08",
+  "python": "3.11.11",
+  "torch": "2.5.1+cu121",
+  "pennylane": "0.45.1",
+  "numpy": "2.4.3",
+  "scipy": "1.17.1",
+  "cuda_runtime": "12.1",
+  "gpu": "NVIDIA GeForce RTX 4070",
+  "gpu_memory_bytes": 12878086144,
+  "supplementary_neural_default": "CUDA if available, otherwise CPU",
+  "fixed_weight_scan": "CPU, float32, one PyTorch thread",
+  "classical_flow_controls": "CPU, float64",
+  "hybrid_flow": "RTX 4070, float64 and complex128"
+}

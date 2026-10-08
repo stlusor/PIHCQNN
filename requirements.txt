@@ -1,0 +1,6 @@
+# Supplementary experiment environment: Python 3.11.11
+# GPU runs used PyTorch 2.5.1+cu121; select its CUDA build for GPU execution.
+torch==2.5.1
+pennylane==0.45.1
+numpy==2.4.3
+scipy==1.17.1
