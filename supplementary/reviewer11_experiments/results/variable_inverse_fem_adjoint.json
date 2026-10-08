@@ -1,0 +1,21 @@
+{
+  "model": "FEM_two_level_adjoint",
+  "theta_true": [
+    0.2,
+    -0.1,
+    0.05
+  ],
+  "theta_hat": [
+    0.20010586450486265,
+    -0.10001992013053232,
+    0.05004204960927938
+  ],
+  "theta_rel_error": 0.0005046880154781857,
+  "objective": 1.5977970085579252e-08,
+  "success": true,
+  "message": "Optimization terminated successfully.",
+  "nfev": 16,
+  "elapsed_s": 0.20311629999196157,
+  "mesh_elements": 100,
+  "observations": 50
+}

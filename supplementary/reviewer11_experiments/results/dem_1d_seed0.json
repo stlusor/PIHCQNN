@@ -1,0 +1,9 @@
+{
+  "model": "classical_DEM",
+  "seed": 0,
+  "steps": 5000,
+  "width": 5,
+  "rel_l2": 0.0034181736409664154,
+  "params": 76,
+  "boundary_l2": 0.0
+}
