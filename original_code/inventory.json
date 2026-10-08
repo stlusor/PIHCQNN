@@ -1,0 +1,137 @@
+{
+  "package": "PIHCQNN original author code",
+  "prepared_at_utc": "2026-10-08T12:57:03.513992+00:00",
+  "source_archive": "C:\\Users\\admin\\Documents\\芮导论文\\2024-QC\\Submission\\CZW\\PIHCQNN.rar",
+  "source_directory": "C:\\Users\\admin\\Documents\\芮导论文\\2024-QC\\Submission\\CZW\\PIHCQNN",
+  "preservation": "The archive and all 13 Python files are copied byte-for-byte.",
+  "independent_script_count": 9,
+  "python_file_count": 13,
+  "duplicate_aliases": [
+    {
+      "alias": "src/PIHCQNN_Forward Problem.py",
+      "canonical": "src/PIHCQNN_Forward_Problem_Heat.py",
+      "byte_identical": true
+    },
+    {
+      "alias": "src/PINN_Forward Problem.py",
+      "canonical": "src/PINN_Forward_Problem_Heat.py",
+      "byte_identical": true
+    },
+    {
+      "alias": "src/PIHCQNN_Inverse Problem.py",
+      "canonical": "src/PIHCQNN_Inverse_Problem.py",
+      "byte_identical": true
+    },
+    {
+      "alias": "src/PINN_Inverse Problem.py",
+      "canonical": "src/PINN_Inverse_Problem.py",
+      "byte_identical": true
+    }
+  ],
+  "verification": {
+    "source_and_copy_sha256_match": true,
+    "python_ast_parse": "passed for 13 scripts",
+    "training_executed": false,
+    "historical_dependency_versions": "not recorded in the original archive"
+  },
+  "files": [
+    {
+      "release_path": "archive/PIHCQNN.rar",
+      "source_path": "C:\\Users\\admin\\Documents\\芮导论文\\2024-QC\\Submission\\CZW\\PIHCQNN.rar",
+      "size_bytes": 22637,
+      "sha256": "10717ccd84fecf2350048ddb64e19eb3de5ef49b39f12492aa06ee0f3eaf450c",
+      "byte_identical_to_source": true
+    },
+    {
+      "release_path": "src/PIHCQNN_Forward Problem.py",
+      "source_path": "C:\\Users\\admin\\Documents\\芮导论文\\2024-QC\\Submission\\CZW\\PIHCQNN\\PIHCQNN_Forward Problem.py",
+      "size_bytes": 6805,
+      "sha256": "4834d3e4c86d83b50be54bd7deb1508e936381d31f16a4cd715647f6a3a4e783",
+      "byte_identical_to_source": true
+    },
+    {
+      "release_path": "src/PIHCQNN_Forward_Problem_Heat.py",
+      "source_path": "C:\\Users\\admin\\Documents\\芮导论文\\2024-QC\\Submission\\CZW\\PIHCQNN\\PIHCQNN_Forward_Problem_Heat.py",
+      "size_bytes": 6805,
+      "sha256": "4834d3e4c86d83b50be54bd7deb1508e936381d31f16a4cd715647f6a3a4e783",
+      "byte_identical_to_source": true
+    },
+    {
+      "release_path": "src/PIHCQNN_Forward_Problem_Poisson.py",
+      "source_path": "C:\\Users\\admin\\Documents\\芮导论文\\2024-QC\\Submission\\CZW\\PIHCQNN\\PIHCQNN_Forward_Problem_Poisson.py",
+      "size_bytes": 5777,
+      "sha256": "9035766adc2969717799fa1c8198b41f1e5787d8d63cbcc444ad2b67461e5dd3",
+      "byte_identical_to_source": true
+    },
+    {
+      "release_path": "src/PIHCQNN_Inverse Problem.py",
+      "source_path": "C:\\Users\\admin\\Documents\\芮导论文\\2024-QC\\Submission\\CZW\\PIHCQNN\\PIHCQNN_Inverse Problem.py",
+      "size_bytes": 5034,
+      "sha256": "51a5dd9007b9a82e7d8f3a2f4dc492329a0dffe789460bf853b8567876acef4b",
+      "byte_identical_to_source": true
+    },
+    {
+      "release_path": "src/PIHCQNN_Inverse_Problem.py",
+      "source_path": "C:\\Users\\admin\\Documents\\芮导论文\\2024-QC\\Submission\\CZW\\PIHCQNN\\PIHCQNN_Inverse_Problem.py",
+      "size_bytes": 5034,
+      "sha256": "51a5dd9007b9a82e7d8f3a2f4dc492329a0dffe789460bf853b8567876acef4b",
+      "byte_identical_to_source": true
+    },
+    {
+      "release_path": "src/PINN_Forward Problem.py",
+      "source_path": "C:\\Users\\admin\\Documents\\芮导论文\\2024-QC\\Submission\\CZW\\PIHCQNN\\PINN_Forward Problem.py",
+      "size_bytes": 5985,
+      "sha256": "cc48365e5cd813a4a74710601f572275a6c0baf645d2b7822b5b9290cfb5f282",
+      "byte_identical_to_source": true
+    },
+    {
+      "release_path": "src/PINN_Forward_Problem_Heat.py",
+      "source_path": "C:\\Users\\admin\\Documents\\芮导论文\\2024-QC\\Submission\\CZW\\PIHCQNN\\PINN_Forward_Problem_Heat.py",
+      "size_bytes": 5985,
+      "sha256": "cc48365e5cd813a4a74710601f572275a6c0baf645d2b7822b5b9290cfb5f282",
+      "byte_identical_to_source": true
+    },
+    {
+      "release_path": "src/PINN_Forward_Problem_Poisson.py",
+      "source_path": "C:\\Users\\admin\\Documents\\芮导论文\\2024-QC\\Submission\\CZW\\PIHCQNN\\PINN_Forward_Problem_Poisson.py",
+      "size_bytes": 5917,
+      "sha256": "cfeef94071f91b0effea5fd03d61bb7958ffa985d3506696d0dec9495892c23a",
+      "byte_identical_to_source": true
+    },
+    {
+      "release_path": "src/PINN_Inverse Problem.py",
+      "source_path": "C:\\Users\\admin\\Documents\\芮导论文\\2024-QC\\Submission\\CZW\\PIHCQNN\\PINN_Inverse Problem.py",
+      "size_bytes": 5019,
+      "sha256": "eee4d21061302918c60f042616054dedba9641cb9a8d67254e7ada04dbeb45d2",
+      "byte_identical_to_source": true
+    },
+    {
+      "release_path": "src/PINN_Inverse_Problem.py",
+      "source_path": "C:\\Users\\admin\\Documents\\芮导论文\\2024-QC\\Submission\\CZW\\PIHCQNN\\PINN_Inverse_Problem.py",
+      "size_bytes": 5019,
+      "sha256": "eee4d21061302918c60f042616054dedba9641cb9a8d67254e7ada04dbeb45d2",
+      "byte_identical_to_source": true
+    },
+    {
+      "release_path": "src/Plot_Forward_Problem_Heat.py",
+      "source_path": "C:\\Users\\admin\\Documents\\芮导论文\\2024-QC\\Submission\\CZW\\PIHCQNN\\Plot_Forward_Problem_Heat.py",
+      "size_bytes": 4942,
+      "sha256": "08ba703e11c37b3222feddd30f1e1cd83ee1f482eb7e8db7570791d980260c8f",
+      "byte_identical_to_source": true
+    },
+    {
+      "release_path": "src/Plot_Forward_Problem_Poisson.py",
+      "source_path": "C:\\Users\\admin\\Documents\\芮导论文\\2024-QC\\Submission\\CZW\\PIHCQNN\\Plot_Forward_Problem_Poisson.py",
+      "size_bytes": 4768,
+      "sha256": "0b2a2c59b2e21a3d1b6a511c804d8cccc9f22cbe398861bdc2a2b7e69891ef35",
+      "byte_identical_to_source": true
+    },
+    {
+      "release_path": "src/Plot_Inverse_Problem.py",
+      "source_path": "C:\\Users\\admin\\Documents\\芮导论文\\2024-QC\\Submission\\CZW\\PIHCQNN\\Plot_Inverse_Problem.py",
+      "size_bytes": 4828,
+      "sha256": "6930f2ea55325fb7d9d7dec060cacde88c2bf0c0ee1be01274b0494fbe75e41d",
+      "byte_identical_to_source": true
+    }
+  ]
+}
