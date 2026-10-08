@@ -1,0 +1,70 @@
+{
+  "steps": 2000,
+  "seed": 1234,
+  "data_weight": 100.0,
+  "normalize": true,
+  "hard_geometry": true,
+  "data_scale": "rms",
+  "data_fields": "uv",
+  "boundary_weight": 0.0,
+  "resume": "convergence\\pihcqnn_rms100_physics\\interrupted_snapshot.pt",
+  "reset_optimizer": false,
+  "eval_every": 250,
+  "out": "convergence\\pihcqnn_rms100_physics_graph",
+  "parameters": 536,
+  "dtype": "float64",
+  "optimizer": "lbfgs",
+  "protocol": {
+    "status": "new_reproduction_protocol_not_historical_sampling",
+    "reference_points": 19340,
+    "data_points": 193,
+    "heldout_points": 19145,
+    "data_fraction": 0.009979317476732162,
+    "sampling_rule": "floor(0.01 * N), without replacement",
+    "sampling_rng": "numpy.random.RandomState MT19937",
+    "sampling_seed": 1234,
+    "fixed_during_training": true,
+    "shared_across_models": true,
+    "observed_fields": [
+      "u",
+      "v"
+    ],
+    "evaluations": [
+      "all_reference_points",
+      "heldout_reference_points"
+    ],
+    "heldout_rule": "exclude every row whose exact coordinate equals a sampled coordinate",
+    "extra_duplicate_rows_excluded": 2,
+    "sampled_distinct_coordinates": 193,
+    "author_recipe_counts": {
+      "colloc": 49119,
+      "wall": 1133,
+      "inlet": 201,
+      "outlet": 201
+    },
+    "experiment_counts": {
+      "colloc": 1024,
+      "wall": 256,
+      "inlet": 64,
+      "outlet": 64
+    },
+    "full_reference_unique_coordinates": 19200,
+    "points_sha256": "70da7d3ecaad0ab18a460f2691dadb0724fed18b1a24b27cfa039a28cd37a864",
+    "data_indices_sha256": "4c4f6cc0c0967bd4a9f20e33e26e582e2ca1bf60bc67159e7c0647922ca5e320",
+    "reference_min_distance_to_cylinder_center": 0.04947726750741194
+  },
+  "execution": "captured objective and gradients",
+  "source_checkpoint_step": 600,
+  "optimizer_restored": true,
+  "training_observations": "193 fixed uv values only; no teacher or other reference labels",
+  "observed_fields": [
+    "u",
+    "v"
+  ],
+  "status": "new_method_search_not_historical_reproduction",
+  "environment": {
+    "torch": "2.5.1+cu121",
+    "cuda": "12.1",
+    "gpu": "NVIDIA GeForce RTX 4070"
+  }
+}

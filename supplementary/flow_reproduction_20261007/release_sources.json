@@ -1,0 +1,428 @@
+[
+  {
+    "source": "flow_reproduction_20261007/flow_core.py",
+    "release": "supplementary/flow_reproduction_20261007/flow_core.py",
+    "bytes": 10873,
+    "sha256": "c5455eba35a0dde56c1997f29019f83bb692d210ad8e506710161f00ae22dbe0"
+  },
+  {
+    "source": "flow_reproduction_20261007/convergence_train.py",
+    "release": "supplementary/flow_reproduction_20261007/convergence_train.py",
+    "bytes": 10043,
+    "sha256": "289c57a1d153cf007554d1150dc9f66bcfd3f0fcea4ab1b1b8d4717834c68ba3"
+  },
+  {
+    "source": "flow_reproduction_20261007/convergence_quantum.py",
+    "release": "supplementary/flow_reproduction_20261007/convergence_quantum.py",
+    "bytes": 3931,
+    "sha256": "e57b62b95c3fa43182bb8ba782a45aea443f67694d2c097eacb6f1c01f6a0a16"
+  },
+  {
+    "source": "flow_reproduction_20261007/convergence_jets.py",
+    "release": "supplementary/flow_reproduction_20261007/convergence_jets.py",
+    "bytes": 6985,
+    "sha256": "10c38dffef48a2826e78172f00ed9adaa756670790e03c365948ee6bff2f5af2"
+  },
+  {
+    "source": "flow_reproduction_20261007/convergence_lbfgs_graph.py",
+    "release": "supplementary/flow_reproduction_20261007/convergence_lbfgs_graph.py",
+    "bytes": 8924,
+    "sha256": "bd5c4ed4062f906cc360666ae903549e13002855c618ffc3b4eb179ebca32272"
+  },
+  {
+    "source": "flow_reproduction_20261007/benchmark_convergence.py",
+    "release": "supplementary/flow_reproduction_20261007/benchmark_convergence.py",
+    "bytes": 1849,
+    "sha256": "83e31c8d17be52b42bb4e7e52c577491214899f41f6ab6187d1c00ae8843f660"
+  },
+  {
+    "source": "flow_reproduction_20261007/hybrid_backend/common.py",
+    "release": "supplementary/flow_reproduction_20261007/hybrid_backend/common.py",
+    "bytes": 4744,
+    "sha256": "0020e47f6fba8e8635d720f4555e0c831c972373fa3080b889adcbe4b6f339f1"
+  },
+  {
+    "source": "flow_reproduction_20261007/hybrid_backend/quantum_layer.py",
+    "release": "supplementary/flow_reproduction_20261007/hybrid_backend/quantum_layer.py",
+    "bytes": 7172,
+    "sha256": "497822c1c97a042d91d5268a9bf5a175887857de59170b89d7f081ff5380cb19"
+  },
+  {
+    "source": "flow_reproduction_20261007/source/FluentReferenceMu002/FluentSol.mat",
+    "release": "supplementary/flow_reproduction_20261007/source/FluentReferenceMu002/FluentSol.mat",
+    "bytes": 774008,
+    "sha256": "c00ae36d240e98cd9160e3546d164d44ab4687c7763703a3babdbc327c5eb3cc"
+  },
+  {
+    "source": "flow_reproduction_20261007/source/PINN_steady/SteadyFlowCylinder_mixed.py",
+    "release": "supplementary/flow_reproduction_20261007/source/PINN_steady/SteadyFlowCylinder_mixed.py",
+    "bytes": 21840,
+    "sha256": "2fc561a41bbf9acb3c96513838115587f9fbeeb3d4d49ba75a0559b087f73e7e"
+  },
+  {
+    "source": "flow_reproduction_20261007/source/PINN_steady/uvNN.pickle",
+    "release": "supplementary/flow_reproduction_20261007/source/PINN_steady/uvNN.pickle",
+    "bytes": 48065,
+    "sha256": "58b1e3a458165079c2377578328b7df38376ad1b4fa70f39bc16a20c92115687"
+  },
+  {
+    "source": "flow_reproduction_20261007/source/README.md",
+    "release": "supplementary/flow_reproduction_20261007/source/README.md",
+    "bytes": 1340,
+    "sha256": "cbeb4e9b68def0697f08792bb39207a08bcc86740ec4af3c42a1dc8c8091365a"
+  },
+  {
+    "source": "flow_reproduction_20261007/source/source_manifest.json",
+    "release": "supplementary/flow_reproduction_20261007/source/source_manifest.json",
+    "bytes": 1850,
+    "sha256": "337d50c883772071423c19f0f0c554675c5d91731ea3a1d98e007e48e77122fa"
+  },
+  {
+    "source": "flow_reproduction_20261007/protocol/data_indices.npy",
+    "release": "supplementary/flow_reproduction_20261007/protocol/data_indices.npy",
+    "bytes": 900,
+    "sha256": "a2c8a1d8d6a8693609f6fa93bac0f29dec07af2f0b6b99e4d565b10e7235694f"
+  },
+  {
+    "source": "flow_reproduction_20261007/protocol/heldout_indices.npy",
+    "release": "supplementary/flow_reproduction_20261007/protocol/heldout_indices.npy",
+    "bytes": 153288,
+    "sha256": "2eb22f3f024b8a4d6637911c6c7a8845f291358aa9c07e9413432607ebe4cf20"
+  },
+  {
+    "source": "flow_reproduction_20261007/protocol/points.npz",
+    "release": "supplementary/flow_reproduction_20261007/protocol/points.npz",
+    "bytes": 959978,
+    "sha256": "70da7d3ecaad0ab18a460f2691dadb0724fed18b1a24b27cfa039a28cd37a864"
+  },
+  {
+    "source": "flow_reproduction_20261007/protocol/protocol.json",
+    "release": "supplementary/flow_reproduction_20261007/protocol/protocol.json",
+    "bytes": 1225,
+    "sha256": "d1f68435726ae2d930f7427fde4d9dd8ef0f6dccf92e059f64d028858569376e"
+  },
+  {
+    "source": "flow_reproduction_20261007/protocol/sampled_velocity_observations.csv",
+    "release": "supplementary/flow_reproduction_20261007/protocol/sampled_velocity_observations.csv",
+    "bytes": 8803,
+    "sha256": "061a72f49be692a0041af28416280df32be306c4c86ab52cb50ecd98c3d14c01"
+  },
+  {
+    "source": "flow_reproduction_20261007/convergence/pihcqnn_capacity_193/config.json",
+    "release": "supplementary/flow_reproduction_20261007/convergence/pihcqnn_capacity_193/config.json",
+    "bytes": 2121,
+    "sha256": "6fc97d7c2e8ab84afd2459515ac662d846e1419fd3a914cf27015867cf215871"
+  },
+  {
+    "source": "flow_reproduction_20261007/convergence/pihcqnn_capacity_193/history.json",
+    "release": "supplementary/flow_reproduction_20261007/convergence/pihcqnn_capacity_193/history.json",
+    "bytes": 2995,
+    "sha256": "374f74ab08080631c52abf8b0053765b1da54ba9612d4a9acd61f5e94891a58a"
+  },
+  {
+    "source": "flow_reproduction_20261007/convergence/pihcqnn_capacity_193/checkpoint.pt",
+    "release": "supplementary/flow_reproduction_20261007/convergence/pihcqnn_capacity_193/checkpoint.pt",
+    "bytes": 503511,
+    "sha256": "0ea99e4c889752e29694e9b57af33229e4bfd11b9d1a88e74a283932e6f07b70"
+  },
+  {
+    "source": "flow_reproduction_20261007/convergence/pihcqnn_capacity_193/result.json",
+    "release": "supplementary/flow_reproduction_20261007/convergence/pihcqnn_capacity_193/result.json",
+    "bytes": 6406,
+    "sha256": "12a40e2b781d7183ef66bed409bfdedf12c88e6efc7ab4314f3c9334f5f2cfa8"
+  },
+  {
+    "source": "flow_reproduction_20261007/convergence/pihcqnn_capacity_193/predictions.npz",
+    "release": "supplementary/flow_reproduction_20261007/convergence/pihcqnn_capacity_193/predictions.npz",
+    "bytes": 1546632,
+    "sha256": "b7a5bd50c3de9993937cdf22b2c57e0c90d675b30c3cd1db5e60dba5ec028cca"
+  },
+  {
+    "source": "flow_reproduction_20261007/convergence/pihcqnn_capacity_193/validation_indices.npy",
+    "release": "supplementary/flow_reproduction_20261007/convergence/pihcqnn_capacity_193/validation_indices.npy",
+    "bytes": 16128,
+    "sha256": "b4288058fff6a9c8db0d72397f00763f3a6b56177cbe8b632e667eca4d86b430"
+  },
+  {
+    "source": "flow_reproduction_20261007/convergence/pihcqnn_capacity_193/reserved_test_indices.npy",
+    "release": "supplementary/flow_reproduction_20261007/convergence/pihcqnn_capacity_193/reserved_test_indices.npy",
+    "bytes": 137288,
+    "sha256": "111082829acc28430e00f9c1842a69284211bb8820b4cc034813525e77f0fa71"
+  },
+  {
+    "source": "flow_reproduction_20261007/convergence/pihcqnn_rms100_physics/config.json",
+    "release": "supplementary/flow_reproduction_20261007/convergence/pihcqnn_rms100_physics/config.json",
+    "bytes": 2199,
+    "sha256": "5a41a75da1006152a83b726311acc12abc92104da369cb6537efa088881b11ed"
+  },
+  {
+    "source": "flow_reproduction_20261007/convergence/pihcqnn_rms100_physics/history.json",
+    "release": "supplementary/flow_reproduction_20261007/convergence/pihcqnn_rms100_physics/history.json",
+    "bytes": 3073,
+    "sha256": "fc8933fe14ff298bf9462fd18b549046e2a0e5db62f1b5a5bf53161b904f30c8"
+  },
+  {
+    "source": "flow_reproduction_20261007/convergence/pihcqnn_rms100_physics/checkpoint.pt",
+    "release": "supplementary/flow_reproduction_20261007/convergence/pihcqnn_rms100_physics/checkpoint.pt",
+    "bytes": 505687,
+    "sha256": "e4d1dda367516d13eecee6a1a2543795eb2155bb5eb74b9b72bdb594bc339707"
+  },
+  {
+    "source": "flow_reproduction_20261007/convergence/pihcqnn_rms100_physics/validation_indices.npy",
+    "release": "supplementary/flow_reproduction_20261007/convergence/pihcqnn_rms100_physics/validation_indices.npy",
+    "bytes": 16128,
+    "sha256": "b4288058fff6a9c8db0d72397f00763f3a6b56177cbe8b632e667eca4d86b430"
+  },
+  {
+    "source": "flow_reproduction_20261007/convergence/pihcqnn_rms100_physics/reserved_test_indices.npy",
+    "release": "supplementary/flow_reproduction_20261007/convergence/pihcqnn_rms100_physics/reserved_test_indices.npy",
+    "bytes": 137288,
+    "sha256": "111082829acc28430e00f9c1842a69284211bb8820b4cc034813525e77f0fa71"
+  },
+  {
+    "source": "flow_reproduction_20261007/convergence/pihcqnn_rms100_physics/interrupted_snapshot.pt",
+    "release": "supplementary/flow_reproduction_20261007/convergence/pihcqnn_rms100_physics/interrupted_snapshot.pt",
+    "bytes": 505081,
+    "sha256": "bddd3b891f9a7ad6ecfe351964f52a2ec9a8d93b5f7075b4e409ebb89255233d"
+  },
+  {
+    "source": "flow_reproduction_20261007/convergence/pihcqnn_rms100_physics_graph/config.json",
+    "release": "supplementary/flow_reproduction_20261007/convergence/pihcqnn_rms100_physics_graph/config.json",
+    "bytes": 2193,
+    "sha256": "cf16c76d3631ebd1f379814a1fce1944020a91ad757402570a49e5655b15c6d6"
+  },
+  {
+    "source": "flow_reproduction_20261007/convergence/pihcqnn_rms100_physics_graph/history.json",
+    "release": "supplementary/flow_reproduction_20261007/convergence/pihcqnn_rms100_physics_graph/history.json",
+    "bytes": 3744,
+    "sha256": "ce5cbae58dbacfdaf5e46cff1516803e8e9474794877a124ba4994bac894f9d7"
+  },
+  {
+    "source": "flow_reproduction_20261007/convergence/pihcqnn_rms100_physics_graph/checkpoint.pt",
+    "release": "supplementary/flow_reproduction_20261007/convergence/pihcqnn_rms100_physics_graph/checkpoint.pt",
+    "bytes": 505751,
+    "sha256": "5e099cefc67a861324469c32c06c3c435473c1d03c540772d60bfcfea7ffdc0f"
+  },
+  {
+    "source": "flow_reproduction_20261007/convergence/pihcqnn_rms100_physics_graph/result.json",
+    "release": "supplementary/flow_reproduction_20261007/convergence/pihcqnn_rms100_physics_graph/result.json",
+    "bytes": 7560,
+    "sha256": "271e80fd8d30bdfb3544d8546dd6b148c339f8582066a53e7641208b159753a4"
+  },
+  {
+    "source": "flow_reproduction_20261007/convergence/pihcqnn_rms100_physics_graph/predictions.npz",
+    "release": "supplementary/flow_reproduction_20261007/convergence/pihcqnn_rms100_physics_graph/predictions.npz",
+    "bytes": 1546632,
+    "sha256": "5783c4518ea92f059b712457105a3c9e1c66fe224b3027d48be31b13731fb095"
+  },
+  {
+    "source": "flow_reproduction_20261007/convergence/pihcqnn_rms100_physics_graph/validation_indices.npy",
+    "release": "supplementary/flow_reproduction_20261007/convergence/pihcqnn_rms100_physics_graph/validation_indices.npy",
+    "bytes": 16128,
+    "sha256": "b4288058fff6a9c8db0d72397f00763f3a6b56177cbe8b632e667eca4d86b430"
+  },
+  {
+    "source": "flow_reproduction_20261007/convergence/pihcqnn_rms100_physics_graph/reserved_test_indices.npy",
+    "release": "supplementary/flow_reproduction_20261007/convergence/pihcqnn_rms100_physics_graph/reserved_test_indices.npy",
+    "bytes": 137288,
+    "sha256": "111082829acc28430e00f9c1842a69284211bb8820b4cc034813525e77f0fa71"
+  },
+  {
+    "source": "flow_reproduction_20261007/convergence/pihcqnn_rms100_physics_graph/graph_checks.json",
+    "release": "supplementary/flow_reproduction_20261007/convergence/pihcqnn_rms100_physics_graph/graph_checks.json",
+    "bytes": 207,
+    "sha256": "96b2c9a9831791e4c89b3fee232beba2963e30e8558e9f7bb5d8c60b42dee5f8"
+  },
+  {
+    "source": "flow_reproduction_20261007/convergence/pihcqnn_rms100_physics_graph/profiles.json",
+    "release": "supplementary/flow_reproduction_20261007/convergence/pihcqnn_rms100_physics_graph/profiles.json",
+    "bytes": 447,
+    "sha256": "406f391ae58cfdc03e1ba804b84a533eb4ba17e89d761ae56ba08f8656247335"
+  },
+  {
+    "source": "flow_reproduction_20261007/convergence/pihcqnn_rms100_physics_graph/profile_x0.136.csv",
+    "release": "supplementary/flow_reproduction_20261007/convergence/pihcqnn_rms100_physics_graph/profile_x0.136.csv",
+    "bytes": 28012,
+    "sha256": "d8c0902fa779d6928108f601c0e9d731c6800c9cd160f261370d2951dfd2573b"
+  },
+  {
+    "source": "flow_reproduction_20261007/convergence/pihcqnn_rms100_physics_graph/profile_x0.297.csv",
+    "release": "supplementary/flow_reproduction_20261007/convergence/pihcqnn_rms100_physics_graph/profile_x0.297.csv",
+    "bytes": 28241,
+    "sha256": "c943ab3eb5a5ddf94d6cab40bbdad6ab7545cf6c8f4802b92ef58dc34564f662"
+  },
+  {
+    "source": "reviewer_supplement_20261007/flow_controls/comparison_protocol.json",
+    "release": "supplementary/reviewer_supplement_20261007/flow_controls/comparison_protocol.json",
+    "bytes": 2980,
+    "sha256": "7013659a6af7a87195f8bc4f75accd1f85b3fdab53a4d9914ecb837eae94ca5f"
+  },
+  {
+    "source": "reviewer_supplement_20261007/flow_controls/pinn5/data_initialization/config.json",
+    "release": "supplementary/reviewer_supplement_20261007/flow_controls/pinn5/data_initialization/config.json",
+    "bytes": 2313,
+    "sha256": "ad1cf959aea3ba5caf642660ab2ee0f4d586a4cce9f532ae96638e1e260442c1"
+  },
+  {
+    "source": "reviewer_supplement_20261007/flow_controls/pinn5/data_initialization/history.json",
+    "release": "supplementary/reviewer_supplement_20261007/flow_controls/pinn5/data_initialization/history.json",
+    "bytes": 1818,
+    "sha256": "f64ff51cacba5e1cce832713888ec49ea856b7ffe998f269d821d5b251fd1252"
+  },
+  {
+    "source": "reviewer_supplement_20261007/flow_controls/pinn5/data_initialization/checkpoint.pt",
+    "release": "supplementary/reviewer_supplement_20261007/flow_controls/pinn5/data_initialization/checkpoint.pt",
+    "bytes": 374026,
+    "sha256": "d3ac9987b6eb0bf1d5325659e003f379a9ac328fdafe4d93ead3ab11387a9ee7"
+  },
+  {
+    "source": "reviewer_supplement_20261007/flow_controls/pinn5/data_initialization/result.json",
+    "release": "supplementary/reviewer_supplement_20261007/flow_controls/pinn5/data_initialization/result.json",
+    "bytes": 5350,
+    "sha256": "6ef8f7e159f1a172434c70ddca4d22b0c139a31847fa5e73e09d93a44af7ddf8"
+  },
+  {
+    "source": "reviewer_supplement_20261007/flow_controls/pinn5/data_initialization/predictions.npz",
+    "release": "supplementary/reviewer_supplement_20261007/flow_controls/pinn5/data_initialization/predictions.npz",
+    "bytes": 1546632,
+    "sha256": "308e3cda6c28762f38463ba7b936a26214e0e3229903d9d57883747bd6f7f3b6"
+  },
+  {
+    "source": "reviewer_supplement_20261007/flow_controls/pinn5/data_initialization/validation_indices.npy",
+    "release": "supplementary/reviewer_supplement_20261007/flow_controls/pinn5/data_initialization/validation_indices.npy",
+    "bytes": 16128,
+    "sha256": "b4288058fff6a9c8db0d72397f00763f3a6b56177cbe8b632e667eca4d86b430"
+  },
+  {
+    "source": "reviewer_supplement_20261007/flow_controls/pinn5/data_initialization/reserved_test_indices.npy",
+    "release": "supplementary/reviewer_supplement_20261007/flow_controls/pinn5/data_initialization/reserved_test_indices.npy",
+    "bytes": 137288,
+    "sha256": "111082829acc28430e00f9c1842a69284211bb8820b4cc034813525e77f0fa71"
+  },
+  {
+    "source": "reviewer_supplement_20261007/flow_controls/pinn5/physics_training/config.json",
+    "release": "supplementary/reviewer_supplement_20261007/flow_controls/pinn5/physics_training/config.json",
+    "bytes": 2450,
+    "sha256": "38303885bb4af5ea68dd2d72da9ce4ddac06f7b121ad65e08a586d17eaf0ca32"
+  },
+  {
+    "source": "reviewer_supplement_20261007/flow_controls/pinn5/physics_training/history.json",
+    "release": "supplementary/reviewer_supplement_20261007/flow_controls/pinn5/physics_training/history.json",
+    "bytes": 3096,
+    "sha256": "b8a72ccc29a3f9a92cb8c1ba3a061fbc15045bbc71634ae0c323218fbc02522e"
+  },
+  {
+    "source": "reviewer_supplement_20261007/flow_controls/pinn5/physics_training/checkpoint.pt",
+    "release": "supplementary/reviewer_supplement_20261007/flow_controls/pinn5/physics_training/checkpoint.pt",
+    "bytes": 374408,
+    "sha256": "a0fe791d96bfa06420b2778e7f82e50cfd9b8119ea5af306293fdf36b97345c6"
+  },
+  {
+    "source": "reviewer_supplement_20261007/flow_controls/pinn5/physics_training/result.json",
+    "release": "supplementary/reviewer_supplement_20261007/flow_controls/pinn5/physics_training/result.json",
+    "bytes": 6851,
+    "sha256": "f062cc940f8d19982fe626cf966f50f043460abebd0059459ee71ccb3416eb16"
+  },
+  {
+    "source": "reviewer_supplement_20261007/flow_controls/pinn5/physics_training/predictions.npz",
+    "release": "supplementary/reviewer_supplement_20261007/flow_controls/pinn5/physics_training/predictions.npz",
+    "bytes": 1546632,
+    "sha256": "a7de51fe9c952a5b31bf218226982e9311c9993df2e81ad445ec13dc1a192560"
+  },
+  {
+    "source": "reviewer_supplement_20261007/flow_controls/pinn5/physics_training/validation_indices.npy",
+    "release": "supplementary/reviewer_supplement_20261007/flow_controls/pinn5/physics_training/validation_indices.npy",
+    "bytes": 16128,
+    "sha256": "b4288058fff6a9c8db0d72397f00763f3a6b56177cbe8b632e667eca4d86b430"
+  },
+  {
+    "source": "reviewer_supplement_20261007/flow_controls/pinn5/physics_training/reserved_test_indices.npy",
+    "release": "supplementary/reviewer_supplement_20261007/flow_controls/pinn5/physics_training/reserved_test_indices.npy",
+    "bytes": 137288,
+    "sha256": "111082829acc28430e00f9c1842a69284211bb8820b4cc034813525e77f0fa71"
+  },
+  {
+    "source": "reviewer_supplement_20261007/flow_controls/pinn6/data_initialization/config.json",
+    "release": "supplementary/reviewer_supplement_20261007/flow_controls/pinn6/data_initialization/config.json",
+    "bytes": 2313,
+    "sha256": "26128ea124802ba1942b0bd54575952db3684ac0afa477729bc2eac4ad5c2652"
+  },
+  {
+    "source": "reviewer_supplement_20261007/flow_controls/pinn6/data_initialization/history.json",
+    "release": "supplementary/reviewer_supplement_20261007/flow_controls/pinn6/data_initialization/history.json",
+    "bytes": 1815,
+    "sha256": "a6f6d3b26322344aa349af8f45085767343113960abe8cfc01fd55ef1cf6c364"
+  },
+  {
+    "source": "reviewer_supplement_20261007/flow_controls/pinn6/data_initialization/checkpoint.pt",
+    "release": "supplementary/reviewer_supplement_20261007/flow_controls/pinn6/data_initialization/checkpoint.pt",
+    "bytes": 486534,
+    "sha256": "e1764bd38d9e6180c173f4f655a59c25aa5af211ece131fbc392c47dd6fd20a5"
+  },
+  {
+    "source": "reviewer_supplement_20261007/flow_controls/pinn6/data_initialization/result.json",
+    "release": "supplementary/reviewer_supplement_20261007/flow_controls/pinn6/data_initialization/result.json",
+    "bytes": 5349,
+    "sha256": "eaf45327fc32d321e96ba37deb3eed0264896f3f6032e03f9085edb9a9e7762d"
+  },
+  {
+    "source": "reviewer_supplement_20261007/flow_controls/pinn6/data_initialization/predictions.npz",
+    "release": "supplementary/reviewer_supplement_20261007/flow_controls/pinn6/data_initialization/predictions.npz",
+    "bytes": 1546632,
+    "sha256": "e9b725166dfad5d14fadb90b9d5f1c7a8fc2390c464f09635198dffbbbd7bf75"
+  },
+  {
+    "source": "reviewer_supplement_20261007/flow_controls/pinn6/data_initialization/validation_indices.npy",
+    "release": "supplementary/reviewer_supplement_20261007/flow_controls/pinn6/data_initialization/validation_indices.npy",
+    "bytes": 16128,
+    "sha256": "b4288058fff6a9c8db0d72397f00763f3a6b56177cbe8b632e667eca4d86b430"
+  },
+  {
+    "source": "reviewer_supplement_20261007/flow_controls/pinn6/data_initialization/reserved_test_indices.npy",
+    "release": "supplementary/reviewer_supplement_20261007/flow_controls/pinn6/data_initialization/reserved_test_indices.npy",
+    "bytes": 137288,
+    "sha256": "111082829acc28430e00f9c1842a69284211bb8820b4cc034813525e77f0fa71"
+  },
+  {
+    "source": "reviewer_supplement_20261007/flow_controls/pinn6/physics_training/config.json",
+    "release": "supplementary/reviewer_supplement_20261007/flow_controls/pinn6/physics_training/config.json",
+    "bytes": 2450,
+    "sha256": "5c5ef5ec5ef923dd10be78c49862872ab935cb3844c6d33e170872402edf1359"
+  },
+  {
+    "source": "reviewer_supplement_20261007/flow_controls/pinn6/physics_training/history.json",
+    "release": "supplementary/reviewer_supplement_20261007/flow_controls/pinn6/physics_training/history.json",
+    "bytes": 3105,
+    "sha256": "8f835cc19ae6dfe303920739416e71ce544501462dd5e6b56453e240642b12a5"
+  },
+  {
+    "source": "reviewer_supplement_20261007/flow_controls/pinn6/physics_training/checkpoint.pt",
+    "release": "supplementary/reviewer_supplement_20261007/flow_controls/pinn6/physics_training/checkpoint.pt",
+    "bytes": 486662,
+    "sha256": "fd3e30961bb22a0016c17e7929d3d1fd0c2da0f4ed70f3ffef521ebb4ab22d5d"
+  },
+  {
+    "source": "reviewer_supplement_20261007/flow_controls/pinn6/physics_training/result.json",
+    "release": "supplementary/reviewer_supplement_20261007/flow_controls/pinn6/physics_training/result.json",
+    "bytes": 6862,
+    "sha256": "ed5b523db8270b19c71ea210e1f6aaf02b90299885fef74592076317fc405c4d"
+  },
+  {
+    "source": "reviewer_supplement_20261007/flow_controls/pinn6/physics_training/predictions.npz",
+    "release": "supplementary/reviewer_supplement_20261007/flow_controls/pinn6/physics_training/predictions.npz",
+    "bytes": 1546632,
+    "sha256": "187cfa37147084e4867867d3c42c14058fe52e2e720a57f521f9b7cd889c264a"
+  },
+  {
+    "source": "reviewer_supplement_20261007/flow_controls/pinn6/physics_training/validation_indices.npy",
+    "release": "supplementary/reviewer_supplement_20261007/flow_controls/pinn6/physics_training/validation_indices.npy",
+    "bytes": 16128,
+    "sha256": "b4288058fff6a9c8db0d72397f00763f3a6b56177cbe8b632e667eca4d86b430"
+  },
+  {
+    "source": "reviewer_supplement_20261007/flow_controls/pinn6/physics_training/reserved_test_indices.npy",
+    "release": "supplementary/reviewer_supplement_20261007/flow_controls/pinn6/physics_training/reserved_test_indices.npy",
+    "bytes": 137288,
+    "sha256": "111082829acc28430e00f9c1842a69284211bb8820b4cc034813525e77f0fa71"
+  }
+]

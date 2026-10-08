@@ -1,0 +1,31 @@
+﻿{
+    "repository":  "https://github.com/Raocp/PINN-laminar-flow",
+    "commit":  "d34fc037f16a8e79dd8c01a0e3dd6389297634ee",
+    "downloaded_utc":  "2026-10-07T12:36:33.4209215Z",
+    "files":  [
+                  {
+                      "path":  "README.md",
+                      "url":  "https://raw.githubusercontent.com/Raocp/PINN-laminar-flow/d34fc037f16a8e79dd8c01a0e3dd6389297634ee/README.md",
+                      "bytes":  1340,
+                      "sha256":  "CBEB4E9B68DEF0697F08792BB39207A08BCC86740EC4AF3C42A1DC8C8091365A"
+                  },
+                  {
+                      "path":  "PINN_steady/SteadyFlowCylinder_mixed.py",
+                      "url":  "https://raw.githubusercontent.com/Raocp/PINN-laminar-flow/d34fc037f16a8e79dd8c01a0e3dd6389297634ee/PINN_steady/SteadyFlowCylinder_mixed.py",
+                      "bytes":  21840,
+                      "sha256":  "2FC561A41BBF9ACB3C96513838115587F9FBEEB3D4D49BA75A0559B087F73E7E"
+                  },
+                  {
+                      "path":  "PINN_steady/uvNN.pickle",
+                      "url":  "https://raw.githubusercontent.com/Raocp/PINN-laminar-flow/d34fc037f16a8e79dd8c01a0e3dd6389297634ee/PINN_steady/uvNN.pickle",
+                      "bytes":  48065,
+                      "sha256":  "58B1E3A458165079C2377578328B7DF38376AD1B4FA70F39BC16A20C92115687"
+                  },
+                  {
+                      "path":  "FluentReferenceMu002/FluentSol.mat",
+                      "url":  "https://raw.githubusercontent.com/Raocp/PINN-laminar-flow/d34fc037f16a8e79dd8c01a0e3dd6389297634ee/FluentReferenceMu002/FluentSol.mat",
+                      "bytes":  774008,
+                      "sha256":  "C00AE36D240E98CD9160E3546D164D44AB4687C7763703A3BABDBC327C5EB3CC"
+                  }
+              ]
+}

@@ -1,0 +1,15 @@
+{
+  "reference": "linear interpolation of the public CFD reference at 201 heights on each manuscript line",
+  "profiles": {
+    "0.136": {
+      "u_relative_l2": 0.04483348756239791,
+      "v_relative_l2": 0.062321821974659825,
+      "p_relative_l2": 1.0311382319566968
+    },
+    "0.297": {
+      "u_relative_l2": 0.02425427216424135,
+      "v_relative_l2": 0.08168805255434783,
+      "p_relative_l2": 1.2119843929516119
+    }
+  }
+}
