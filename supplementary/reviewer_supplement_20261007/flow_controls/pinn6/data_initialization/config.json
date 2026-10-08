@@ -1,0 +1,77 @@
+{
+  "model": "pinn6",
+  "optimizer": "lbfgs",
+  "steps": 1500,
+  "lr": 1.0,
+  "seed": 1234,
+  "data_weight": 1.0,
+  "physics_weight": 0.0,
+  "boundary_weight": 0.0,
+  "data_scale": "rms",
+  "data_fields": "uv",
+  "normalize": true,
+  "hard_geometry": true,
+  "dense_quantum": false,
+  "jet": false,
+  "float64": true,
+  "device": "cpu",
+  "init": null,
+  "resume": null,
+  "reset_optimizer": false,
+  "eval_every": 500,
+  "physics_chunk": 1024,
+  "out": "C:\\Users\\admin\\Documents\\\u82ae\u5bfc\u8bba\u6587\\reviewer_supplement_20261007\\flow_controls\\pinn6\\data_initialization",
+  "parameters": 521,
+  "protocol": {
+    "status": "new_reproduction_protocol_not_historical_sampling",
+    "reference_points": 19340,
+    "data_points": 193,
+    "heldout_points": 19145,
+    "data_fraction": 0.009979317476732162,
+    "sampling_rule": "floor(0.01 * N), without replacement",
+    "sampling_rng": "numpy.random.RandomState MT19937",
+    "sampling_seed": 1234,
+    "fixed_during_training": true,
+    "shared_across_models": true,
+    "observed_fields": [
+      "u",
+      "v"
+    ],
+    "evaluations": [
+      "all_reference_points",
+      "heldout_reference_points"
+    ],
+    "heldout_rule": "exclude every row whose exact coordinate equals a sampled coordinate",
+    "extra_duplicate_rows_excluded": 2,
+    "sampled_distinct_coordinates": 193,
+    "author_recipe_counts": {
+      "colloc": 49119,
+      "wall": 1133,
+      "inlet": 201,
+      "outlet": 201
+    },
+    "experiment_counts": {
+      "colloc": 1024,
+      "wall": 256,
+      "inlet": 64,
+      "outlet": 64
+    },
+    "full_reference_unique_coordinates": 19200,
+    "points_sha256": "70da7d3ecaad0ab18a460f2691dadb0724fed18b1a24b27cfa039a28cd37a864",
+    "data_indices_sha256": "4c4f6cc0c0967bd4a9f20e33e26e582e2ca1bf60bc67159e7c0647922ca5e320",
+    "reference_min_distance_to_cylinder_center": 0.04947726750741194
+  },
+  "training_observations": "only the fixed 193 uv reference values; no teacher or other reference labels",
+  "observed_fields": [
+    "u",
+    "v"
+  ],
+  "validation_seed": 20261007,
+  "validation_count": 2000,
+  "reserved_test_count": 17145,
+  "data_scales": [
+    0.728192031553939,
+    0.11765040404549004
+  ],
+  "initial_optimizer_restored": false
+}
