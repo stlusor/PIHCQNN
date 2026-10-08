@@ -1,0 +1,27 @@
+{
+  "source_root": "supplementary/",
+  "output_scope": "supplementary results and archived repeated runs",
+  "sd_manuscript": "Table 4 and 6: ddof=0; repeated Table 1/2 and Table 7/8/9/11 and fixed weights: ddof=1",
+  "both_sd_conventions_provided": true,
+  "single_run_sd": "blank",
+  "error_units": "percent; original JSON ratios multiplied by 100",
+  "historical_original_numbers": "Original heat PIHCQNN, original inverse Table 3, original flow and approximate historical timings remain manuscript-reported values; they are not regenerated here.",
+  "missing_source_files": [],
+  "csv_files": [
+    "dem_energy_method.csv",
+    "fixed_weight_study_cpu.csv",
+    "flow_common_observation_final.csv",
+    "table01_heat_supplementary_repeats.csv",
+    "table02_poisson_repeats.csv",
+    "table04_modern_baselines.csv",
+    "table05_and_supplementary_recorded_costs.csv",
+    "table06_frequency_diagnostics.csv",
+    "table07_elastostatic_controls.csv",
+    "table08_sensitivity_and_ansatz.csv",
+    "table09_gradient_diagnostics.csv",
+    "table10_classical_solvers.csv",
+    "table11_fem_reconstructed_displacement.csv",
+    "table11_variable_inverse.csv"
+  ],
+  "training_executed": false
+}

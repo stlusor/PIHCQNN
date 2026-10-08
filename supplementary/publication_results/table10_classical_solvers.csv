@@ -1,0 +1,4 @@
+﻿manuscript_location,solver_case,sd_ddof,relative_l2_percent,elapsed_s,grid_or_elements,time_steps,evaluation,source_file
+Table 10,bar_fem,single deterministic solution,0.008225076221561312,0.02575339999748394,200,,solution grid,reviewer11_experiments/results/classical_baselines.json
+Table 10,poisson_fd,single deterministic solution,5.611101197388143e-13,0.5197120999800973,201,,solution grid,reviewer11_experiments/results/classical_baselines.json
+Table 10,heat_fd,single deterministic solution,0.3805300413110073,0.37593409995315596,201,10001,final time,reviewer11_experiments/results/classical_baselines.json

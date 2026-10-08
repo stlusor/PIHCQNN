@@ -1,0 +1,396 @@
+{
+  "scope": "Read-only audit of archived full weighted physics-loss training histories; no retraining",
+  "core_runs": 30,
+  "sensitivity_runs": 10,
+  "all_runs": 40,
+  "stored_checkpoints": 390,
+  "core_checkpoints": 330,
+  "quantum_checkpoints": 225,
+  "core_quantum_checkpoints": 165,
+  "all_raw_numeric_fields_finite": true,
+  "nonfinite_fields": [],
+  "quantum_gradients_strictly_positive_at_all_recorded_quantum_checkpoints": true,
+  "quantum_gradient_range_all": {
+    "n_checkpoints": 225,
+    "min": 0.034701457943043905,
+    "max": 156.51923399384677,
+    "mean": 10.421962259959082,
+    "median": 2.18975528020269,
+    "sample_sd": 20.942437047396375
+  },
+  "quantum_gradient_range_core": {
+    "n_checkpoints": 165,
+    "min": 0.034701457943043905,
+    "max": 156.51923399384677,
+    "mean": 10.096966097561818,
+    "median": 1.6320691606531226,
+    "sample_sd": 22.420824768372594
+  },
+  "classical_gradient_range_all": {
+    "n_checkpoints": 390,
+    "min": 0.09136200904908917,
+    "max": 784.3521285373494,
+    "mean": 38.90407824964879,
+    "median": 6.296793552713067,
+    "sample_sd": 84.79177058282794
+  },
+  "gradient_partition_identity_max_relative_squared_error": 2.1954313690606708e-16,
+  "gradient_partition_identity_pass_tolerance": 1e-12,
+  "gradient_partition_identity_all_pass": true,
+  "stale_logged_loss_checkpoint_count": 6,
+  "stale_logged_loss_checkpoints": [
+    {
+      "suite": "core",
+      "run_id": "pinn_soft_uniform_gradnorm_seed0",
+      "checkpoint_step": 501,
+      "loss_logged": 23.29595947265625,
+      "objective_reconstructed": 23.101935702216863,
+      "logged_vs_reconstructed_relative_difference": 0.00832864474490192
+    },
+    {
+      "suite": "core",
+      "run_id": "pinn_soft_uniform_gradnorm_seed1",
+      "checkpoint_step": 501,
+      "loss_logged": 28.479942321777344,
+      "objective_reconstructed": 28.24170143387048,
+      "logged_vs_reconstructed_relative_difference": 0.008365216657222296
+    },
+    {
+      "suite": "core",
+      "run_id": "pinn_soft_uniform_gradnorm_seed2",
+      "checkpoint_step": 501,
+      "loss_logged": 402.9259948730469,
+      "objective_reconstructed": 396.62650977004733,
+      "logged_vs_reconstructed_relative_difference": 0.01563434770443235
+    },
+    {
+      "suite": "core",
+      "run_id": "qpinn_soft_uniform_gradnorm_seed0",
+      "checkpoint_step": 501,
+      "loss_logged": 0.22104579210281372,
+      "objective_reconstructed": 0.21966848579904574,
+      "logged_vs_reconstructed_relative_difference": 0.006230864160161708
+    },
+    {
+      "suite": "core",
+      "run_id": "qpinn_soft_uniform_gradnorm_seed1",
+      "checkpoint_step": 501,
+      "loss_logged": 1.4925694465637207,
+      "objective_reconstructed": 1.4965302960107796,
+      "logged_vs_reconstructed_relative_difference": 0.0026466884483508967
+    },
+    {
+      "suite": "core",
+      "run_id": "qpinn_soft_uniform_gradnorm_seed2",
+      "checkpoint_step": 501,
+      "loss_logged": 0.04401496425271034,
+      "objective_reconstructed": 0.03996232792357121,
+      "logged_vs_reconstructed_relative_difference": 0.09207405703821692
+    }
+  ],
+  "maximum_current_branch_loss_relative_difference": 7.622123115072632e-08,
+  "parameter_norm_recorded": false,
+  "parameter_norm_missing_in_runs": [
+    "reviewer11_experiments/results/elastostatic_core/pinn_hard_adaptive_fixed_seed0.json",
+    "reviewer11_experiments/results/elastostatic_core/pinn_hard_adaptive_fixed_seed1.json",
+    "reviewer11_experiments/results/elastostatic_core/pinn_hard_adaptive_fixed_seed2.json",
+    "reviewer11_experiments/results/elastostatic_core/pinn_hard_uniform_fixed_seed0.json",
+    "reviewer11_experiments/results/elastostatic_core/pinn_hard_uniform_fixed_seed1.json",
+    "reviewer11_experiments/results/elastostatic_core/pinn_hard_uniform_fixed_seed2.json",
+    "reviewer11_experiments/results/elastostatic_core/pinn_soft_adaptive_fixed_seed0.json",
+    "reviewer11_experiments/results/elastostatic_core/pinn_soft_adaptive_fixed_seed1.json",
+    "reviewer11_experiments/results/elastostatic_core/pinn_soft_adaptive_fixed_seed2.json",
+    "reviewer11_experiments/results/elastostatic_core/pinn_soft_uniform_fixed_seed0.json",
+    "reviewer11_experiments/results/elastostatic_core/pinn_soft_uniform_fixed_seed1.json",
+    "reviewer11_experiments/results/elastostatic_core/pinn_soft_uniform_fixed_seed2.json",
+    "reviewer11_experiments/results/elastostatic_core/pinn_soft_uniform_gradnorm_seed0.json",
+    "reviewer11_experiments/results/elastostatic_core/pinn_soft_uniform_gradnorm_seed1.json",
+    "reviewer11_experiments/results/elastostatic_core/pinn_soft_uniform_gradnorm_seed2.json",
+    "reviewer11_experiments/results/elastostatic_core/qpinn_hard_adaptive_fixed_seed0.json",
+    "reviewer11_experiments/results/elastostatic_core/qpinn_hard_adaptive_fixed_seed1.json",
+    "reviewer11_experiments/results/elastostatic_core/qpinn_hard_adaptive_fixed_seed2.json",
+    "reviewer11_experiments/results/elastostatic_core/qpinn_hard_uniform_fixed_seed0.json",
+    "reviewer11_experiments/results/elastostatic_core/qpinn_hard_uniform_fixed_seed1.json",
+    "reviewer11_experiments/results/elastostatic_core/qpinn_hard_uniform_fixed_seed2.json",
+    "reviewer11_experiments/results/elastostatic_core/qpinn_soft_adaptive_fixed_seed0.json",
+    "reviewer11_experiments/results/elastostatic_core/qpinn_soft_adaptive_fixed_seed1.json",
+    "reviewer11_experiments/results/elastostatic_core/qpinn_soft_adaptive_fixed_seed2.json",
+    "reviewer11_experiments/results/elastostatic_core/qpinn_soft_uniform_fixed_seed0.json",
+    "reviewer11_experiments/results/elastostatic_core/qpinn_soft_uniform_fixed_seed1.json",
+    "reviewer11_experiments/results/elastostatic_core/qpinn_soft_uniform_fixed_seed2.json",
+    "reviewer11_experiments/results/elastostatic_core/qpinn_soft_uniform_gradnorm_seed0.json",
+    "reviewer11_experiments/results/elastostatic_core/qpinn_soft_uniform_gradnorm_seed1.json",
+    "reviewer11_experiments/results/elastostatic_core/qpinn_soft_uniform_gradnorm_seed2.json",
+    "reviewer11_experiments/results/sensitivity/q2_seed0.json",
+    "reviewer11_experiments/results/sensitivity/q2_seed1.json",
+    "reviewer11_experiments/results/sensitivity/q4_seed0.json",
+    "reviewer11_experiments/results/sensitivity/q4_seed1.json",
+    "reviewer11_experiments/results/sensitivity/q6_seed0.json",
+    "reviewer11_experiments/results/sensitivity/q6_seed1.json",
+    "reviewer11_experiments/results/sensitivity/q10_seed0.json",
+    "reviewer11_experiments/results/sensitivity/q10_seed1.json",
+    "reviewer11_experiments/results/sensitivity/lr5e-3_seed0.json",
+    "reviewer11_experiments/results/sensitivity/lr5e-3_seed1.json"
+  ],
+  "prediction_norm_is_not_parameter_norm": true,
+  "checkpoint_time_definition": {
+    "step_label": "one-based number of optimizer updates completed at record emission",
+    "gradients_lf_lb_weights": "evaluated at parameters immediately before this labeled update",
+    "prediction_metrics": "evaluated immediately after this labeled update",
+    "first_checkpoint": "step 1 contains initialization-state loss/gradients and one-update prediction metrics",
+    "mid_selection": "stored checkpoint nearest to half the configured update budget; ties use the earlier step"
+  },
+  "interpretation_limits": [
+    "Only stored checkpoints (every 100 updates plus the last update) were checked, not every optimization step.",
+    "Gradient-total partition consistency is an internal arithmetic audit because the source computes grad_total from the two groups.",
+    "Positive finite gradients in these short runs do not establish absence of barren plateaus for arbitrary circuits or physics-informed objectives.",
+    "No parameter norm or individual parameter-gradient distribution was recorded.",
+    "The independently archived circuit-initialization proxy-loss test is a separate diagnostic and its scaling trend must not be assigned to the full training loss."
+  ],
+  "source_training_script": {
+    "path": "reviewer11_experiments/elastostatic_forward.py",
+    "sha256": "4e124d92f0a0106e4318b5a433b6de0778bf69ebae031a7f2c30a4ec7e541aef"
+  },
+  "source_manifest": [
+    {
+      "source": "reviewer11_experiments/results/elastostatic_core/pinn_hard_adaptive_fixed_seed0.json",
+      "sha256": "5b61d0e5e316b601fffc47907c0ef1d09ba0263c503628ae8d61febf639c1ae4",
+      "numeric_record_finite": true,
+      "checkpoints": 11
+    },
+    {
+      "source": "reviewer11_experiments/results/elastostatic_core/pinn_hard_adaptive_fixed_seed1.json",
+      "sha256": "cf5437dcd544d60e775e7fbaafa7d72526188e61b56d767e926c4732651d53cf",
+      "numeric_record_finite": true,
+      "checkpoints": 11
+    },
+    {
+      "source": "reviewer11_experiments/results/elastostatic_core/pinn_hard_adaptive_fixed_seed2.json",
+      "sha256": "91347afe547f2390af9dc541e14ec1903dd2b1b934564eef3127b4ca73c8b471",
+      "numeric_record_finite": true,
+      "checkpoints": 11
+    },
+    {
+      "source": "reviewer11_experiments/results/elastostatic_core/pinn_hard_uniform_fixed_seed0.json",
+      "sha256": "f3403544f8ca09341f6098438ff8ae310c3525f75b86604151a6db8a369b094c",
+      "numeric_record_finite": true,
+      "checkpoints": 11
+    },
+    {
+      "source": "reviewer11_experiments/results/elastostatic_core/pinn_hard_uniform_fixed_seed1.json",
+      "sha256": "e247df9bd2524e1f362f48fb41747b1b22f8cbee672355166c1f44c6cba9e4b7",
+      "numeric_record_finite": true,
+      "checkpoints": 11
+    },
+    {
+      "source": "reviewer11_experiments/results/elastostatic_core/pinn_hard_uniform_fixed_seed2.json",
+      "sha256": "2906776885bd0a1a1cf81cf862ee6ade9da658763b865b2e86e3399df3d3a1e9",
+      "numeric_record_finite": true,
+      "checkpoints": 11
+    },
+    {
+      "source": "reviewer11_experiments/results/elastostatic_core/pinn_soft_adaptive_fixed_seed0.json",
+      "sha256": "03490c6881217bbd87df862793b205adbcbbbf4dd2a8bda5237ce8c6b02f0e80",
+      "numeric_record_finite": true,
+      "checkpoints": 11
+    },
+    {
+      "source": "reviewer11_experiments/results/elastostatic_core/pinn_soft_adaptive_fixed_seed1.json",
+      "sha256": "35593f99cad1f141cfe455dd5e8894a5d4e07c5a10f9f9a7f2e9825b53b5538e",
+      "numeric_record_finite": true,
+      "checkpoints": 11
+    },
+    {
+      "source": "reviewer11_experiments/results/elastostatic_core/pinn_soft_adaptive_fixed_seed2.json",
+      "sha256": "7d291ead1a6b4bae9ec78c5898bf77da92c5fb206ef56b8af216f26c68a00b2f",
+      "numeric_record_finite": true,
+      "checkpoints": 11
+    },
+    {
+      "source": "reviewer11_experiments/results/elastostatic_core/pinn_soft_uniform_fixed_seed0.json",
+      "sha256": "fd921df29ab9d478f7f4d5b021245a56cf8da8a8d1ecb22f0c2652e6a9efbab6",
+      "numeric_record_finite": true,
+      "checkpoints": 11
+    },
+    {
+      "source": "reviewer11_experiments/results/elastostatic_core/pinn_soft_uniform_fixed_seed1.json",
+      "sha256": "1ba30a0243381adb85a65e61260fe489033095ae294c80bb3d3c82a2d831e55b",
+      "numeric_record_finite": true,
+      "checkpoints": 11
+    },
+    {
+      "source": "reviewer11_experiments/results/elastostatic_core/pinn_soft_uniform_fixed_seed2.json",
+      "sha256": "72da3943baf09aa4864df6fee0035dfa0b69a868ef07f3fc91cae78617466820",
+      "numeric_record_finite": true,
+      "checkpoints": 11
+    },
+    {
+      "source": "reviewer11_experiments/results/elastostatic_core/pinn_soft_uniform_gradnorm_seed0.json",
+      "sha256": "c38b4d7a83073626bbc27d51da0e2cb8c5d0cea23b55e4e279cd7fe8b1b3d09d",
+      "numeric_record_finite": true,
+      "checkpoints": 11
+    },
+    {
+      "source": "reviewer11_experiments/results/elastostatic_core/pinn_soft_uniform_gradnorm_seed1.json",
+      "sha256": "9858c5d10104f6165f6228fbc45c76b3ea32dfc38f277a6377c9ec8061065ee1",
+      "numeric_record_finite": true,
+      "checkpoints": 11
+    },
+    {
+      "source": "reviewer11_experiments/results/elastostatic_core/pinn_soft_uniform_gradnorm_seed2.json",
+      "sha256": "24f9546f5831dcfdb2cdf58a20fafc99a295889653aae0438d7d603ea9c42446",
+      "numeric_record_finite": true,
+      "checkpoints": 11
+    },
+    {
+      "source": "reviewer11_experiments/results/elastostatic_core/qpinn_hard_adaptive_fixed_seed0.json",
+      "sha256": "c443da8e5d29b639b7bbcffe3f61ddb743bbddb3a9aec98543991627e0df1eba",
+      "numeric_record_finite": true,
+      "checkpoints": 11
+    },
+    {
+      "source": "reviewer11_experiments/results/elastostatic_core/qpinn_hard_adaptive_fixed_seed1.json",
+      "sha256": "939f16ecf516afe752bce5123ca100e613ede702d65fcc89e84310a65fd87e41",
+      "numeric_record_finite": true,
+      "checkpoints": 11
+    },
+    {
+      "source": "reviewer11_experiments/results/elastostatic_core/qpinn_hard_adaptive_fixed_seed2.json",
+      "sha256": "3238e896c79b4315a9a1201de83c3ebf14550b9be48a93b181a3ac7d19a7a9c7",
+      "numeric_record_finite": true,
+      "checkpoints": 11
+    },
+    {
+      "source": "reviewer11_experiments/results/elastostatic_core/qpinn_hard_uniform_fixed_seed0.json",
+      "sha256": "fd9da316fd5da67ea2193770628efaf0822b69366f551c572c8658866fa792f3",
+      "numeric_record_finite": true,
+      "checkpoints": 11
+    },
+    {
+      "source": "reviewer11_experiments/results/elastostatic_core/qpinn_hard_uniform_fixed_seed1.json",
+      "sha256": "5966fae60198a2a36575475adbfdb2914ed07774d95773852a017d2c1abe996c",
+      "numeric_record_finite": true,
+      "checkpoints": 11
+    },
+    {
+      "source": "reviewer11_experiments/results/elastostatic_core/qpinn_hard_uniform_fixed_seed2.json",
+      "sha256": "e210bdbf7318db4f8ae1c781c5bbef545a10c05e17d123587fd9820832fa9630",
+      "numeric_record_finite": true,
+      "checkpoints": 11
+    },
+    {
+      "source": "reviewer11_experiments/results/elastostatic_core/qpinn_soft_adaptive_fixed_seed0.json",
+      "sha256": "e97fa3cad70fc890e705876d4f21f4340b31078544ee4ea1f03c0ccd0941c7f8",
+      "numeric_record_finite": true,
+      "checkpoints": 11
+    },
+    {
+      "source": "reviewer11_experiments/results/elastostatic_core/qpinn_soft_adaptive_fixed_seed1.json",
+      "sha256": "f12a9c6b103309b00f2064457793df347f176e3654eea23bca649a7d1c4d78d7",
+      "numeric_record_finite": true,
+      "checkpoints": 11
+    },
+    {
+      "source": "reviewer11_experiments/results/elastostatic_core/qpinn_soft_adaptive_fixed_seed2.json",
+      "sha256": "189bcd37e416406b33fab6c7f26c5a22d1e8021fb8ed5e9a4c1d99cc76758736",
+      "numeric_record_finite": true,
+      "checkpoints": 11
+    },
+    {
+      "source": "reviewer11_experiments/results/elastostatic_core/qpinn_soft_uniform_fixed_seed0.json",
+      "sha256": "29e71b6a14cc6574cdca1f300d00684faa677d2eac01378f5b33840573aa9065",
+      "numeric_record_finite": true,
+      "checkpoints": 11
+    },
+    {
+      "source": "reviewer11_experiments/results/elastostatic_core/qpinn_soft_uniform_fixed_seed1.json",
+      "sha256": "e2a3ab0b51b835f8e5ae4d310bd0e8bd0c7eaaa1d8d57d38a7a9f72f3aca29b8",
+      "numeric_record_finite": true,
+      "checkpoints": 11
+    },
+    {
+      "source": "reviewer11_experiments/results/elastostatic_core/qpinn_soft_uniform_fixed_seed2.json",
+      "sha256": "dfc2245e24a90d50d646248fc89a1310f5a8d5671a54c9bae57fbf2edc39c609",
+      "numeric_record_finite": true,
+      "checkpoints": 11
+    },
+    {
+      "source": "reviewer11_experiments/results/elastostatic_core/qpinn_soft_uniform_gradnorm_seed0.json",
+      "sha256": "4e8c510d147efbac61d0219d0eb17aeb30b7f22e0405b0182df9bca8bc15cfa2",
+      "numeric_record_finite": true,
+      "checkpoints": 11
+    },
+    {
+      "source": "reviewer11_experiments/results/elastostatic_core/qpinn_soft_uniform_gradnorm_seed1.json",
+      "sha256": "4a591b29d8b396e317f131d6e15d99cf42865cdc0fbe10af45adbacea70f66a8",
+      "numeric_record_finite": true,
+      "checkpoints": 11
+    },
+    {
+      "source": "reviewer11_experiments/results/elastostatic_core/qpinn_soft_uniform_gradnorm_seed2.json",
+      "sha256": "1334737dcb977ec3111c5cdcb8595378cbefb4a363b59bfcd76ebcb16a8ab314",
+      "numeric_record_finite": true,
+      "checkpoints": 11
+    },
+    {
+      "source": "reviewer11_experiments/results/sensitivity/q2_seed0.json",
+      "sha256": "0769527069d0cdebf41ec0691a19e4d72d8f5367b71e579ebe048307854a7db5",
+      "numeric_record_finite": true,
+      "checkpoints": 6
+    },
+    {
+      "source": "reviewer11_experiments/results/sensitivity/q2_seed1.json",
+      "sha256": "765af200f8a6723ff2daebe5cac88f05cd5d314076e1d89790135acbadf9092b",
+      "numeric_record_finite": true,
+      "checkpoints": 6
+    },
+    {
+      "source": "reviewer11_experiments/results/sensitivity/q4_seed0.json",
+      "sha256": "0e36a635eee021dab08348a16200ba91caec6c15dab4b82135c500d629f97086",
+      "numeric_record_finite": true,
+      "checkpoints": 6
+    },
+    {
+      "source": "reviewer11_experiments/results/sensitivity/q4_seed1.json",
+      "sha256": "ecc1ce1c5de1d2e192f1b94de8df5c37c3a9c8c133ef5e80fe58a5a3afa69c11",
+      "numeric_record_finite": true,
+      "checkpoints": 6
+    },
+    {
+      "source": "reviewer11_experiments/results/sensitivity/q6_seed0.json",
+      "sha256": "3441d023d6081b01e30a9ab5e223d277abb061753bf95a6e8e1b833181d8a631",
+      "numeric_record_finite": true,
+      "checkpoints": 6
+    },
+    {
+      "source": "reviewer11_experiments/results/sensitivity/q6_seed1.json",
+      "sha256": "80e6f915150c3118838a58b20b8e0462d66d04d3f28540a28d072231153d14c8",
+      "numeric_record_finite": true,
+      "checkpoints": 6
+    },
+    {
+      "source": "reviewer11_experiments/results/sensitivity/q10_seed0.json",
+      "sha256": "baee6e63321f36bd9376e0fb737fd050124f9d715b4bd60c63ce307479379787",
+      "numeric_record_finite": true,
+      "checkpoints": 6
+    },
+    {
+      "source": "reviewer11_experiments/results/sensitivity/q10_seed1.json",
+      "sha256": "714780946d28dfbaa127b106c25d4fa991e3a08013c8a872feb885509eabd04b",
+      "numeric_record_finite": true,
+      "checkpoints": 6
+    },
+    {
+      "source": "reviewer11_experiments/results/sensitivity/lr5e-3_seed0.json",
+      "sha256": "470d96537c09496a9de015000f516fc59ba6aba5ac5f7300c885b2b4d54ad80d",
+      "numeric_record_finite": true,
+      "checkpoints": 6
+    },
+    {
+      "source": "reviewer11_experiments/results/sensitivity/lr5e-3_seed1.json",
+      "sha256": "25c9de5e499b44038acc1ff53b49510e9527d2ee69f8e3d35b02ff33ef8dd4f9",
+      "numeric_record_finite": true,
+      "checkpoints": 6
+    }
+  ]
+}
