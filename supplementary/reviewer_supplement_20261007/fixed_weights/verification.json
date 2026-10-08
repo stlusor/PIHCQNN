@@ -1,0 +1,68 @@
+{
+  "environment": {
+    "python": "3.11.11 | packaged by Anaconda, Inc. | (main, Dec 11 2024, 16:34:19) [MSC v.1929 64 bit (AMD64)]",
+    "python_executable": "C:\\Software\\Anaconda\\envs\\pytorch11\\python.exe",
+    "pytorch": "2.5.1+cu121",
+    "numpy": "2.4.4",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 191 Stepping 2, GenuineIntel",
+    "device": "cpu",
+    "dtype": "float32",
+    "torch_threads": 1,
+    "quantum_backend": "original reviewer1_experiments.quantum_layer.ManualQVC",
+    "cuda_build": "12.1",
+    "gpu_available_but_not_used": true
+  },
+  "checks": [
+    {
+      "model": "pinn",
+      "lambda_boundary": 0.1,
+      "parameter_count": 76,
+      "loss_difference": 0.0,
+      "gradient_max_abs_difference": 0.0,
+      "one_adam_update_parameter_max_abs_difference": 0.0
+    },
+    {
+      "model": "pinn",
+      "lambda_boundary": 1.0,
+      "parameter_count": 76,
+      "loss_difference": 0.0,
+      "gradient_max_abs_difference": 0.0,
+      "one_adam_update_parameter_max_abs_difference": 0.0
+    },
+    {
+      "model": "pinn",
+      "lambda_boundary": 10.0,
+      "parameter_count": 76,
+      "loss_difference": 0.0,
+      "gradient_max_abs_difference": 0.0,
+      "one_adam_update_parameter_max_abs_difference": 0.0
+    },
+    {
+      "model": "qpinn",
+      "lambda_boundary": 0.1,
+      "parameter_count": 106,
+      "loss_difference": 0.0,
+      "gradient_max_abs_difference": 0.0,
+      "one_adam_update_parameter_max_abs_difference": 0.0
+    },
+    {
+      "model": "qpinn",
+      "lambda_boundary": 1.0,
+      "parameter_count": 106,
+      "loss_difference": 0.0,
+      "gradient_max_abs_difference": 0.0,
+      "one_adam_update_parameter_max_abs_difference": 0.0
+    },
+    {
+      "model": "qpinn",
+      "lambda_boundary": 10.0,
+      "parameter_count": 106,
+      "loss_difference": 0.0,
+      "gradient_max_abs_difference": 0.0,
+      "one_adam_update_parameter_max_abs_difference": 0.0
+    }
+  ],
+  "passed": true,
+  "actual_original_functions_imported": true
+}

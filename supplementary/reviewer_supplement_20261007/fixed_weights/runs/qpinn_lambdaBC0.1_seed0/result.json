@@ -1,0 +1,836 @@
+{
+  "config": {
+    "case": "1D forward elastostatic",
+    "model": "qpinn",
+    "seed": 0,
+    "width": 5,
+    "qubits": 5,
+    "n_rep": 1,
+    "boundary": "soft",
+    "residual_points": 100,
+    "sampling": "fixed equally spaced interior points",
+    "evaluation_points": 201,
+    "optimizer": "Adam",
+    "lr": 0.005,
+    "updates": 1000,
+    "lambda_residual": 1.0,
+    "lambda_boundary": 0.1,
+    "objective": "L = mean((u_xx + 4*pi^2*sin(2*pi*x))^2) + lambda_boundary*(u(0)^2 + u(1)^2)",
+    "cold_start": true,
+    "parameter_count": 106,
+    "quantum_parameters": 30,
+    "training_points_sha256": "ed8898fb9f6493cd6c514347eb72c65d9c476b579be8643e04bb5e7e83472a49",
+    "environment": {
+      "python": "3.11.11 | packaged by Anaconda, Inc. | (main, Dec 11 2024, 16:34:19) [MSC v.1929 64 bit (AMD64)]",
+      "python_executable": "C:\\Software\\Anaconda\\envs\\pytorch11\\python.exe",
+      "pytorch": "2.5.1+cu121",
+      "numpy": "2.4.4",
+      "platform": "Windows-10-10.0.26200-SP0",
+      "processor": "Intel64 Family 6 Model 191 Stepping 2, GenuineIntel",
+      "device": "cpu",
+      "dtype": "float32",
+      "torch_threads": 1,
+      "quantum_backend": "original reviewer1_experiments.quantum_layer.ManualQVC",
+      "cuda_build": "12.1",
+      "gpu_available_but_not_used": true
+    }
+  },
+  "status": "completed",
+  "completed_steps": 1000,
+  "elapsed_s": 80.34792109997943,
+  "finite_checks": {
+    "loss_checks": 1000,
+    "gradient_checks": 1000,
+    "parameter_checks": 2000,
+    "nonfinite_loss_steps": 0,
+    "nonfinite_gradient_steps": 0,
+    "nonfinite_parameter_steps": 0
+  },
+  "history": [
+    {
+      "state_step": 0,
+      "residual_loss": 788.4058837890625,
+      "boundary_loss_unweighted": 0.051918476819992065,
+      "boundary_loss_weighted": 0.0051918476819992065,
+      "total_loss": 788.4110717773438,
+      "relative_l2_201": 1.0356167554855347,
+      "gradients_total": {
+        "quantum": {
+          "parameters": 30,
+          "l2": 6.5357202445009746,
+          "rms": 1.1932538024854544,
+          "unused_parameters": 0
+        },
+        "classical": {
+          "parameters": 76,
+          "l2": 12.57429563279451,
+          "rms": 1.4423706302514763,
+          "unused_parameters": 0
+        },
+        "all": {
+          "parameters": 106,
+          "l2": 14.171399005577923,
+          "rms": 1.376447950394163,
+          "unused_parameters": 0
+        }
+      },
+      "gradients_residual": {
+        "quantum": {
+          "parameters": 30,
+          "l2": 6.532621540817793,
+          "rms": 1.1926880591833535,
+          "unused_parameters": 0
+        },
+        "classical": {
+          "parameters": 76,
+          "l2": 12.569289556137198,
+          "rms": 1.4417963938764016,
+          "unused_parameters": 1
+        },
+        "all": {
+          "parameters": 106,
+          "l2": 14.165528021982672,
+          "rms": 1.3758777100577428,
+          "unused_parameters": 1
+        }
+      },
+      "gradients_boundary_unweighted": {
+        "quantum": {
+          "parameters": 30,
+          "l2": 0.15138041530769758,
+          "rms": 0.02763815607617544,
+          "unused_parameters": 0
+        },
+        "classical": {
+          "parameters": 76,
+          "l2": 0.8580694240152409,
+          "rms": 0.09842731331117337,
+          "unused_parameters": 0
+        },
+        "all": {
+          "parameters": 106,
+          "l2": 0.8713203581740635,
+          "rms": 0.08463011454785356,
+          "unused_parameters": 0
+        }
+      },
+      "gradient_component_cosine": 0.06432138118242445,
+      "gradient_composition_max_abs_error": 1.4901161193847656e-08,
+      "timing": "all losses, gradients and predictions evaluated before the following update"
+    },
+    {
+      "state_step": 100,
+      "residual_loss": 76.50308227539062,
+      "boundary_loss_unweighted": 8.455474853515625,
+      "boundary_loss_weighted": 0.8455474853515625,
+      "total_loss": 77.3486328125,
+      "relative_l2_201": 1.5634022951126099,
+      "gradients_total": {
+        "quantum": {
+          "parameters": 30,
+          "l2": 29.13803503068144,
+          "rms": 5.319853022559987,
+          "unused_parameters": 0
+        },
+        "classical": {
+          "parameters": 76,
+          "l2": 109.87451858767527,
+          "rms": 12.603471657733099,
+          "unused_parameters": 0
+        },
+        "all": {
+          "parameters": 106,
+          "l2": 113.67248972518644,
+          "rms": 11.040848220902497,
+          "unused_parameters": 0
+        }
+      },
+      "gradients_residual": {
+        "quantum": {
+          "parameters": 30,
+          "l2": 29.60307073387827,
+          "rms": 5.40475653745538,
+          "unused_parameters": 0
+        },
+        "classical": {
+          "parameters": 76,
+          "l2": 110.4854227522666,
+          "rms": 12.673547171355253,
+          "unused_parameters": 1
+        },
+        "all": {
+          "parameters": 106,
+          "l2": 114.38256177242259,
+          "rms": 11.109816514976051,
+          "unused_parameters": 1
+        }
+      },
+      "gradients_boundary_unweighted": {
+        "quantum": {
+          "parameters": 30,
+          "l2": 9.921757254314873,
+          "rms": 1.8114567527595924,
+          "unused_parameters": 0
+        },
+        "classical": {
+          "parameters": 76,
+          "l2": 15.619075516945106,
+          "rms": 1.7916308360498427,
+          "unused_parameters": 0
+        },
+        "all": {
+          "parameters": 106,
+          "l2": 18.503966791409454,
+          "rms": 1.797264134202431,
+          "unused_parameters": 0
+        }
+      },
+      "gradient_component_cosine": -0.39063855355534555,
+      "gradient_composition_max_abs_error": 1.2367962654025177e-07,
+      "timing": "all losses, gradients and predictions evaluated before the following update"
+    },
+    {
+      "state_step": 200,
+      "residual_loss": 8.355301856994629,
+      "boundary_loss_unweighted": 19.85321807861328,
+      "boundary_loss_weighted": 1.9853218078613282,
+      "total_loss": 10.34062385559082,
+      "relative_l2_201": 2.582545518875122,
+      "gradients_total": {
+        "quantum": {
+          "parameters": 30,
+          "l2": 6.50263263501123,
+          "rms": 1.187212859121636,
+          "unused_parameters": 0
+        },
+        "classical": {
+          "parameters": 76,
+          "l2": 12.316587837879077,
+          "rms": 1.412809518804132,
+          "unused_parameters": 0
+        },
+        "all": {
+          "parameters": 106,
+          "l2": 13.927762460427873,
+          "rms": 1.3527838772083818,
+          "unused_parameters": 0
+        }
+      },
+      "gradients_residual": {
+        "quantum": {
+          "parameters": 30,
+          "l2": 6.365226883721428,
+          "rms": 1.1621261159508465,
+          "unused_parameters": 0
+        },
+        "classical": {
+          "parameters": 76,
+          "l2": 13.749045269505315,
+          "rms": 1.5771236552615688,
+          "unused_parameters": 1
+        },
+        "all": {
+          "parameters": 106,
+          "l2": 15.150985416934322,
+          "rms": 1.4715937936249388,
+          "unused_parameters": 1
+        }
+      },
+      "gradients_boundary_unweighted": {
+        "quantum": {
+          "parameters": 30,
+          "l2": 15.118954545869189,
+          "rms": 2.7603308168892764,
+          "unused_parameters": 0
+        },
+        "classical": {
+          "parameters": 76,
+          "l2": 23.44983664648087,
+          "rms": 2.689880741698601,
+          "unused_parameters": 0
+        },
+        "all": {
+          "parameters": 106,
+          "l2": 27.90121189673839,
+          "rms": 2.7100052657936304,
+          "unused_parameters": 0
+        }
+      },
+      "gradient_component_cosine": -0.5127916861944707,
+      "gradient_composition_max_abs_error": 2.384185791015625e-07,
+      "timing": "all losses, gradients and predictions evaluated before the following update"
+    },
+    {
+      "state_step": 300,
+      "residual_loss": 4.35358190536499,
+      "boundary_loss_unweighted": 15.123271942138672,
+      "boundary_loss_weighted": 1.5123271942138672,
+      "total_loss": 5.865909099578857,
+      "relative_l2_201": 2.264054536819458,
+      "gradients_total": {
+        "quantum": {
+          "parameters": 30,
+          "l2": 6.861944946744213,
+          "rms": 1.252814011896797,
+          "unused_parameters": 0
+        },
+        "classical": {
+          "parameters": 76,
+          "l2": 6.702233647334675,
+          "rms": 0.7687989253876283,
+          "unused_parameters": 0
+        },
+        "all": {
+          "parameters": 106,
+          "l2": 9.591987506018421,
+          "rms": 0.9316561856503207,
+          "unused_parameters": 0
+        }
+      },
+      "gradients_residual": {
+        "quantum": {
+          "parameters": 30,
+          "l2": 5.409270308355819,
+          "rms": 0.9875931225098027,
+          "unused_parameters": 0
+        },
+        "classical": {
+          "parameters": 76,
+          "l2": 6.838173078921116,
+          "rms": 0.7843922476173033,
+          "unused_parameters": 1
+        },
+        "all": {
+          "parameters": 106,
+          "l2": 8.718991703525205,
+          "rms": 0.8468633375644311,
+          "unused_parameters": 1
+        }
+      },
+      "gradients_boundary_unweighted": {
+        "quantum": {
+          "parameters": 30,
+          "l2": 23.411600598902652,
+          "rms": 4.274353918440147,
+          "unused_parameters": 0
+        },
+        "classical": {
+          "parameters": 76,
+          "l2": 21.005245639236,
+          "rms": 2.4094669217283724,
+          "unused_parameters": 0
+        },
+        "all": {
+          "parameters": 106,
+          "l2": 31.45351152045161,
+          "rms": 3.0550351061305987,
+          "unused_parameters": 0
+        }
+      },
+      "gradient_component_cosine": 0.11107253735120139,
+      "gradient_composition_max_abs_error": 4.76837158203125e-07,
+      "timing": "all losses, gradients and predictions evaluated before the following update"
+    },
+    {
+      "state_step": 400,
+      "residual_loss": 0.9356743693351746,
+      "boundary_loss_unweighted": 5.289865970611572,
+      "boundary_loss_weighted": 0.5289865970611572,
+      "total_loss": 1.4646610021591187,
+      "relative_l2_201": 1.381127119064331,
+      "gradients_total": {
+        "quantum": {
+          "parameters": 30,
+          "l2": 3.1720151823289005,
+          "rms": 0.5791280893701337,
+          "unused_parameters": 0
+        },
+        "classical": {
+          "parameters": 76,
+          "l2": 3.842276488214494,
+          "rms": 0.4407393401386665,
+          "unused_parameters": 0
+        },
+        "all": {
+          "parameters": 106,
+          "l2": 4.982446078866379,
+          "rms": 0.48393794363603004,
+          "unused_parameters": 0
+        }
+      },
+      "gradients_residual": {
+        "quantum": {
+          "parameters": 30,
+          "l2": 2.151033088968707,
+          "rms": 0.3927231149227259,
+          "unused_parameters": 0
+        },
+        "classical": {
+          "parameters": 76,
+          "l2": 4.548245318541893,
+          "rms": 0.5217195187883177,
+          "unused_parameters": 1
+        },
+        "all": {
+          "parameters": 106,
+          "l2": 5.031250225090828,
+          "rms": 0.4886782213612524,
+          "unused_parameters": 1
+        }
+      },
+      "gradients_boundary_unweighted": {
+        "quantum": {
+          "parameters": 30,
+          "l2": 20.3512805882586,
+          "rms": 3.7156184841020803,
+          "unused_parameters": 0
+        },
+        "classical": {
+          "parameters": 76,
+          "l2": 13.29530008673887,
+          "rms": 1.5250755132142706,
+          "unused_parameters": 0
+        },
+        "all": {
+          "parameters": 106,
+          "l2": 24.30924980287277,
+          "rms": 2.3611230658041436,
+          "unused_parameters": 0
+        }
+      },
+      "gradient_component_cosine": -0.2615616086928234,
+      "gradient_composition_max_abs_error": 2.086162567138672e-07,
+      "timing": "all losses, gradients and predictions evaluated before the following update"
+    },
+    {
+      "state_step": 500,
+      "residual_loss": 0.1476823389530182,
+      "boundary_loss_unweighted": 2.2762861251831055,
+      "boundary_loss_weighted": 0.22762861251831057,
+      "total_loss": 0.3753109574317932,
+      "relative_l2_201": 0.8862517476081848,
+      "gradients_total": {
+        "quantum": {
+          "parameters": 30,
+          "l2": 1.1550391016777621,
+          "rms": 0.21088032359647116,
+          "unused_parameters": 0
+        },
+        "classical": {
+          "parameters": 76,
+          "l2": 1.487408070765819,
+          "rms": 0.17061740705986844,
+          "unused_parameters": 0
+        },
+        "all": {
+          "parameters": 106,
+          "l2": 1.883214829854488,
+          "rms": 0.1829139940019205,
+          "unused_parameters": 0
+        }
+      },
+      "gradients_residual": {
+        "quantum": {
+          "parameters": 30,
+          "l2": 1.1005234112448348,
+          "rms": 0.2009271658004435,
+          "unused_parameters": 0
+        },
+        "classical": {
+          "parameters": 76,
+          "l2": 2.0343481855705505,
+          "rms": 0.2333557409704568,
+          "unused_parameters": 1
+        },
+        "all": {
+          "parameters": 106,
+          "l2": 2.3129471067951726,
+          "rms": 0.22465328252102884,
+          "unused_parameters": 1
+        }
+      },
+      "gradients_boundary_unweighted": {
+        "quantum": {
+          "parameters": 30,
+          "l2": 15.072937194486856,
+          "rms": 2.7519292364263617,
+          "unused_parameters": 0
+        },
+        "classical": {
+          "parameters": 76,
+          "l2": 9.671491029848717,
+          "rms": 1.1093961061176492,
+          "unused_parameters": 0
+        },
+        "all": {
+          "parameters": 106,
+          "l2": 17.90896910515481,
+          "rms": 1.7394728501229892,
+          "unused_parameters": 0
+        }
+      },
+      "gradient_component_cosine": -0.6048088539117817,
+      "gradient_composition_max_abs_error": 1.7881393432617188e-07,
+      "timing": "all losses, gradients and predictions evaluated before the following update"
+    },
+    {
+      "state_step": 600,
+      "residual_loss": 0.052250057458877563,
+      "boundary_loss_unweighted": 1.4753291606903076,
+      "boundary_loss_weighted": 0.14753291606903077,
+      "total_loss": 0.19978298246860504,
+      "relative_l2_201": 0.7072948217391968,
+      "gradients_total": {
+        "quantum": {
+          "parameters": 30,
+          "l2": 0.5274262540350401,
+          "rms": 0.09629441891848052,
+          "unused_parameters": 0
+        },
+        "classical": {
+          "parameters": 76,
+          "l2": 0.5410921700240005,
+          "rms": 0.06206752863883542,
+          "unused_parameters": 0
+        },
+        "all": {
+          "parameters": 106,
+          "l2": 0.75561841554234,
+          "rms": 0.07339214843530713,
+          "unused_parameters": 0
+        }
+      },
+      "gradients_residual": {
+        "quantum": {
+          "parameters": 30,
+          "l2": 1.0078037025008537,
+          "rms": 0.18399894046564771,
+          "unused_parameters": 0
+        },
+        "classical": {
+          "parameters": 76,
+          "l2": 1.1352985393815322,
+          "rms": 0.13022767378719555,
+          "unused_parameters": 1
+        },
+        "all": {
+          "parameters": 106,
+          "l2": 1.5180813799978807,
+          "rms": 0.14744909822997473,
+          "unused_parameters": 1
+        }
+      },
+      "gradients_boundary_unweighted": {
+        "quantum": {
+          "parameters": 30,
+          "l2": 12.435622337115941,
+          "rms": 2.2704236235511717,
+          "unused_parameters": 0
+        },
+        "classical": {
+          "parameters": 76,
+          "l2": 8.367293452345372,
+          "rms": 0.95979438394008,
+          "unused_parameters": 0
+        },
+        "all": {
+          "parameters": 106,
+          "l2": 14.988539042516408,
+          "rms": 1.4558156069386072,
+          "unused_parameters": 0
+        }
+      },
+      "gradient_component_cosine": -0.8746167187934976,
+      "gradient_composition_max_abs_error": 1.1920928955078125e-07,
+      "timing": "all losses, gradients and predictions evaluated before the following update"
+    },
+    {
+      "state_step": 700,
+      "residual_loss": 0.04489011690020561,
+      "boundary_loss_unweighted": 1.1566812992095947,
+      "boundary_loss_weighted": 0.11566812992095948,
+      "total_loss": 0.16055825352668762,
+      "relative_l2_201": 0.6254414319992065,
+      "gradients_total": {
+        "quantum": {
+          "parameters": 30,
+          "l2": 0.32379840120812664,
+          "rms": 0.05911722947526634,
+          "unused_parameters": 0
+        },
+        "classical": {
+          "parameters": 76,
+          "l2": 0.28346947991836874,
+          "rms": 0.03251617938268952,
+          "unused_parameters": 0
+        },
+        "all": {
+          "parameters": 106,
+          "l2": 0.43034910325238207,
+          "rms": 0.04179919998671652,
+          "unused_parameters": 0
+        }
+      },
+      "gradients_residual": {
+        "quantum": {
+          "parameters": 30,
+          "l2": 0.9558964287575932,
+          "rms": 0.17452201222305458,
+          "unused_parameters": 0
+        },
+        "classical": {
+          "parameters": 76,
+          "l2": 0.9217231353139564,
+          "rms": 0.10572889475676321,
+          "unused_parameters": 1
+        },
+        "all": {
+          "parameters": 106,
+          "l2": 1.3278974059333464,
+          "rms": 0.12897679770439444,
+          "unused_parameters": 1
+        }
+      },
+      "gradients_boundary_unweighted": {
+        "quantum": {
+          "parameters": 30,
+          "l2": 11.064118520150156,
+          "rms": 2.0200224307989725,
+          "unused_parameters": 0
+        },
+        "classical": {
+          "parameters": 76,
+          "l2": 7.721920962503355,
+          "rms": 0.8857650822515909,
+          "unused_parameters": 0
+        },
+        "all": {
+          "parameters": 106,
+          "l2": 13.492323075700435,
+          "rms": 1.3104902653784511,
+          "unused_parameters": 0
+        }
+      },
+      "gradient_component_cosine": -0.9484425387965376,
+      "gradient_composition_max_abs_error": 9.685754776000977e-08,
+      "timing": "all losses, gradients and predictions evaluated before the following update"
+    },
+    {
+      "state_step": 800,
+      "residual_loss": 0.045478202402591705,
+      "boundary_loss_unweighted": 0.9676675200462341,
+      "boundary_loss_weighted": 0.09676675200462342,
+      "total_loss": 0.14224496483802795,
+      "relative_l2_201": 0.5719652771949768,
+      "gradients_total": {
+        "quantum": {
+          "parameters": 30,
+          "l2": 0.25571137435664587,
+          "rms": 0.046686295981927674,
+          "unused_parameters": 0
+        },
+        "classical": {
+          "parameters": 76,
+          "l2": 0.2548766409083009,
+          "rms": 0.02923635581022075,
+          "unused_parameters": 0
+        },
+        "all": {
+          "parameters": 106,
+          "l2": 0.36104073046688745,
+          "rms": 0.035067375723762735,
+          "unused_parameters": 0
+        }
+      },
+      "gradients_residual": {
+        "quantum": {
+          "parameters": 30,
+          "l2": 0.9020837681764138,
+          "rms": 0.16469720952982758,
+          "unused_parameters": 0
+        },
+        "classical": {
+          "parameters": 76,
+          "l2": 0.8439997277531457,
+          "rms": 0.09681340846452113,
+          "unused_parameters": 1
+        },
+        "all": {
+          "parameters": 106,
+          "l2": 1.2353504220482308,
+          "rms": 0.11998783999925261,
+          "unused_parameters": 1
+        }
+      },
+      "gradients_boundary_unweighted": {
+        "quantum": {
+          "parameters": 30,
+          "l2": 10.134738712565444,
+          "rms": 1.850341669097653,
+          "unused_parameters": 0
+        },
+        "classical": {
+          "parameters": 76,
+          "l2": 7.263619337218219,
+          "rms": 0.8331942804021605,
+          "unused_parameters": 0
+        },
+        "all": {
+          "parameters": 106,
+          "l2": 12.468885060340524,
+          "rms": 1.2110851778466454,
+          "unused_parameters": 0
+        }
+      },
+      "gradient_component_cosine": -0.9577310843206404,
+      "gradient_composition_max_abs_error": 1.043081283569336e-07,
+      "timing": "all losses, gradients and predictions evaluated before the following update"
+    },
+    {
+      "state_step": 900,
+      "residual_loss": 0.044871024787425995,
+      "boundary_loss_unweighted": 0.8263185024261475,
+      "boundary_loss_weighted": 0.08263185024261475,
+      "total_loss": 0.12750287353992462,
+      "relative_l2_201": 0.5285345911979675,
+      "gradients_total": {
+        "quantum": {
+          "parameters": 30,
+          "l2": 0.2257121958944931,
+          "rms": 0.04120922039847961,
+          "unused_parameters": 0
+        },
+        "classical": {
+          "parameters": 76,
+          "l2": 0.2540192432516002,
+          "rms": 0.029138005553905298,
+          "unused_parameters": 0
+        },
+        "all": {
+          "parameters": 106,
+          "l2": 0.33981137608624823,
+          "rms": 0.033005398546074025,
+          "unused_parameters": 0
+        }
+      },
+      "gradients_residual": {
+        "quantum": {
+          "parameters": 30,
+          "l2": 0.8453958230545797,
+          "rms": 0.1543474541025464,
+          "unused_parameters": 0
+        },
+        "classical": {
+          "parameters": 76,
+          "l2": 0.7974266347110538,
+          "rms": 0.09147110830508438,
+          "unused_parameters": 1
+        },
+        "all": {
+          "parameters": 106,
+          "l2": 1.1621460043319543,
+          "rms": 0.1128775984002611,
+          "unused_parameters": 1
+        }
+      },
+      "gradients_boundary_unweighted": {
+        "quantum": {
+          "parameters": 30,
+          "l2": 9.374132039899205,
+          "rms": 1.7114745250949044,
+          "unused_parameters": 0
+        },
+        "classical": {
+          "parameters": 76,
+          "l2": 6.866571700026321,
+          "rms": 0.7876497928681846,
+          "unused_parameters": 0
+        },
+        "all": {
+          "parameters": 106,
+          "l2": 11.619989604688431,
+          "rms": 1.1286331623772248,
+          "unused_parameters": 0
+        }
+      },
+      "gradient_component_cosine": -0.9572457115415851,
+      "gradient_composition_max_abs_error": 1.1175870895385742e-07,
+      "timing": "all losses, gradients and predictions evaluated before the following update"
+    },
+    {
+      "state_step": 1000,
+      "residual_loss": 0.043174419552087784,
+      "boundary_loss_unweighted": 0.7062393426895142,
+      "boundary_loss_weighted": 0.07062393426895142,
+      "total_loss": 0.1137983500957489,
+      "relative_l2_201": 0.4886247217655182,
+      "gradients_total": {
+        "quantum": {
+          "parameters": 30,
+          "l2": 0.2057926898780122,
+          "rms": 0.03757243280528412,
+          "unused_parameters": 0
+        },
+        "classical": {
+          "parameters": 76,
+          "l2": 0.24534507147859075,
+          "rms": 0.028143009812393167,
+          "unused_parameters": 0
+        },
+        "all": {
+          "parameters": 106,
+          "l2": 0.32022622520034566,
+          "rms": 0.031103120529312925,
+          "unused_parameters": 0
+        }
+      },
+      "gradients_residual": {
+        "quantum": {
+          "parameters": 30,
+          "l2": 0.7871785476617711,
+          "rms": 0.1437184824461692,
+          "unused_parameters": 0
+        },
+        "classical": {
+          "parameters": 76,
+          "l2": 0.7535944000910075,
+          "rms": 0.08644320616881211,
+          "unused_parameters": 1
+        },
+        "all": {
+          "parameters": 106,
+          "l2": 1.0897497812559638,
+          "rms": 0.10584585560408387,
+          "unused_parameters": 1
+        }
+      },
+      "gradients_boundary_unweighted": {
+        "quantum": {
+          "parameters": 30,
+          "l2": 8.67404988827211,
+          "rms": 1.5836575962439334,
+          "unused_parameters": 0
+        },
+        "classical": {
+          "parameters": 76,
+          "l2": 6.481785833383045,
+          "rms": 0.743511826878691,
+          "unused_parameters": 0
+        },
+        "all": {
+          "parameters": 106,
+          "l2": 10.828328082122306,
+          "rms": 1.0517401979131544,
+          "unused_parameters": 0
+        }
+      },
+      "gradient_component_cosine": -0.9565696470501902,
+      "gradient_composition_max_abs_error": 8.940696716308594e-08,
+      "timing": "all losses, gradients and predictions evaluated before the following update"
+    }
+  ],
+  "relative_l2": 0.4886247217655182,
+  "boundary_l2": 0.8403804898262024,
+  "final_residual_loss": 0.043174419552087784,
+  "final_boundary_loss": 0.7062393426895142
+}
