@@ -1,0 +1,46 @@
+{
+  "AST_parsed_code_files": 17,
+  "cli_jobs_validated_without_training": 94,
+  "final_job_count": 94,
+  "training_script_byte_identical": true,
+  "smoke_tests": {
+    "elastostatic": {
+      "result": "release_validation_20261008\\training\\elastostatic_smoke.json",
+      "updates": 2,
+      "all_numeric_fields_finite": true
+    },
+    "fixed_weights": {
+      "result": "release_validation_20261008\\training\\fixed_weights_smoke\\result.json",
+      "updates": 2,
+      "all_numeric_fields_finite": true,
+      "all_sidecars_created": true,
+      "finite_checks": {
+        "loss_checks": 2,
+        "gradient_checks": 2,
+        "parameter_checks": 4,
+        "nonfinite_loss_steps": 0,
+        "nonfinite_gradient_steps": 0,
+        "nonfinite_parameter_steps": 0
+      }
+    },
+    "ansatz": {
+      "result": "release_validation_20261008\\training\\ansatz_smoke.json",
+      "updates": 2,
+      "all_numeric_fields_finite": true
+    }
+  },
+  "archive_fixed_weights_audit": {
+    "runs": 18,
+    "gradient_checkpoints": 198,
+    "passed": true
+  },
+  "archive_gradient_audit": {
+    "runs": 40,
+    "checkpoints": 390,
+    "quantum_checkpoints": 225,
+    "passed": true
+  },
+  "final_FEM_displacement_error_percent": 0.006522386045490472,
+  "owned_release_files": 202,
+  "owned_release_bytes": 1873953
+}

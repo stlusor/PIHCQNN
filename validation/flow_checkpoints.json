@@ -1,0 +1,32 @@
+{
+  "sampling_verified": true,
+  "training_points": 193,
+  "heldout_points": 19145,
+  "models": [
+    {
+      "model": "pinn5",
+      "u_error_percent": 1.9775786192789973,
+      "v_error_percent": 7.944742526841961,
+      "parameters": 391,
+      "checkpoint_predictions_max_abs_difference": 0.0,
+      "optimizer_outer_iterations": 2600
+    },
+    {
+      "model": "pinn6",
+      "u_error_percent": 1.4257834466624237,
+      "v_error_percent": 5.51393457533464,
+      "parameters": 521,
+      "checkpoint_predictions_max_abs_difference": 0.0,
+      "optimizer_outer_iterations": 2600
+    },
+    {
+      "model": "pihcqnn",
+      "u_error_percent": 2.156799108746506,
+      "v_error_percent": 7.945393541564512,
+      "parameters": 536,
+      "checkpoint_predictions_max_abs_difference": 4.18554080283684e-14,
+      "optimizer_outer_iterations": 2600
+    }
+  ],
+  "checkpoints_verified": true
+}

@@ -1,0 +1,22 @@
+{
+  "release": "PIHCQNN_GitHub_Release_20261008",
+  "date": "2026-10-08",
+  "python_syntax_files": 49,
+  "explicit_supplementary_jobs": 203,
+  "archived_scientific_files_byte_checked": 340,
+  "upstream_reference_hashes_checked": 4,
+  "exported_csv_tables": 14,
+  "missing_export_inputs": 0,
+  "checks": [
+    "Original archive and 13 source files: byte/SHA verification",
+    "PennyLane circuit expectation comparison: max absolute difference 1.5529e-7",
+    "Ten two-update supplementary training executions: finite output",
+    "All 94 training-diagnostic recipes: CLI argument parse",
+    "Fixed-weight archive audit: 18 runs and 198 checkpoints",
+    "Training-gradient archive audit: 40 runs and 390 checkpoints",
+    "Three final flow states: predictions regenerated on CPU",
+    "All three flow physics optimizers: 2600 stored outer iterations",
+    "Fourteen CSV exports: deterministic under a different working directory"
+  ],
+  "training_scope": "Short execution checks plus verification of archived final experiments"
+}
